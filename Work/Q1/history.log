@@ -1,0 +1,1000 @@
+  801  sudo ufw allow 5000
+  802  history
+  803  node server.js
+  804  flex cstats.l
+  805  cd..
+  806  cd ..
+  807  mkdir BashScript
+  808  cd BashScript
+  809  code 
+  810  cd BashScript
+  811  touch script1.sh
+  812  chmod 777
+  813  chmod 777 script1.sh
+  814  ls -la
+  815  ./script1.sh
+  816  ls -la
+  817  touch script2.sh
+  818  ./script2_RunPython.sh 
+  819  ./script2_RunPython.sh py1.py
+  820  chmod 777 script2_RunPython.sh
+  821  ./script2_RunPython.sh py1.py
+  822  dirname --help
+  823  ./script2_RunPython.sh py1.py
+  824  python3 Python/app.py xxxx yyyy
+  825  Python3 Python/app.py xxx yyy
+  826  python3 Python/app.py xxx yyy
+  827  python3 Python/app.py --param1 xxx --param2 yyy
+  828  python3 ./script3_runPython_WithParams.sh --param1 xxx --param2 yyy
+  829  python3 ./script3_runPython_Withparams.sh --param1 xxx --param2 yyy
+  830  python3 ./script3_runPythonWithparams.sh --param1 xxx --param2 yyy
+  831  mkdir InputDir
+  832  cd InputDir
+  833  touch file1.txt
+  834  touch file2.txt
+  835  touch log1.log
+  836  touch log2.log
+  837  mv InputDir HW_Q1
+  838  cd ..
+  839  touch log2.log
+  840  mv InputDir HW_Q1
+  841  mkdir HW_1
+  842  cd HW_1
+  843  mkdir InputDir
+  844  cd InputDir
+  845  touch file1.txt
+  846  touch file2.txt
+  847  touch log1.log
+  848  touch log2.log
+  849  cd .
+  850  cd ..
+  851  touch combine.sh
+  852  chmod +x combined.sh
+  853  chmod +x combine.sh
+  854  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  855  chmod +x combine.sh
+  856  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  857  chmod +x combine.sh
+  858  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  859  chmod +x combine.sh
+  860  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  861  cd ..
+  862  mkdir HW_2
+  863  cd HW_1
+  864  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  865  chmod +x combine.sh
+  866  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  867  chmod +x combine.sh
+  868  ./combine.sh /home/somaeldein/SCRIPTING_HW/HW_1/InputDir combine.txt
+  869  cd ..
+  870  touch original.txt
+  871  chmod +x updater.sh
+  872  ./updater.sh help.txt house home
+  873  ./updater.sh Test/ help.txt house home
+  874  ./updater.sh Test/help.txt house home
+  875  chmod +x updater.sh
+  876  ./updater.sh Test/help.txt house home
+  877  chmod +x updater.sh
+  878  ./updater.sh Test/help.txt house home
+  879  chmod +x updater.sh
+  880  ./updater.sh Test/help.txt house home
+  881  ./updater.sh Test/help.txt 1 3
+  882  cd //
+  883  cd SCRPTING_HW
+  884  CD SCRIPTING_HW 
+  885  cd ../ SCRIPTING_HW 
+  886  cd ..
+  887  cd SCRIPTING_HW 
+  888  cd ..
+  889  cd homw
+  890  cd home
+  891  cd ~
+  892  cd SCRIPTING_HW
+  893  mkdir HW_3
+  894  mkdir Test 
+  895  cd HW_3
+  896  mkdir Test
+  897  cd Test
+  898  touch help.txt
+  899  cd ..
+  900  chmod +x updater.sh
+  901  ./updater.sh Test/help.txt 5 five mat rug cat dog
+  902  chmod +x updater.sh
+  903  cd ''
+  904  cd ..
+  905  cd HW_3
+  906  chmod +x updater.sh
+  907  ./updater.sh Test/Help.txt 5 five mat rug cat dog
+  908  history
+  909  cd ..
+  910  cd HW_!
+  911  cd HW_1
+  912  cd..
+  913  cd ..
+  914  cd HW_2
+  915  mkdir BashScript 2
+  916  mkdir BashScript2
+  917  code ./BashScript2
+  918  touch script_1_iterateFile.sh
+  919  chmod +x script_1_iterateFile.sh
+  920  mkdir Folder1
+  921  ./script_1_iterateFile.sh Folder1
+  922  touch script_2_Method.sh
+  923  ls -l
+  924  chmod +x script_2_Methode.sh
+  925  clear
+  926  chmod +x script_2_Method.sh
+  927  ./script_2_Methode.sh 
+  928  ./script_2_Method.sh 
+  929  ./script_2_Method.sh
+  930  chmod +x script_3_insatall.sh
+  931  chmod +x script_3_install.sh
+  932  chmod +x script_3_install.sh
+  933  ./script_3_install.sh
+  934  ./script_4_CSV.sh
+  935  chmod +x script_4_CSV.sh
+  936  ./script_4_CSV.sh
+  937  ./script_4_CSV.sh sales_data
+  938  chmod +x script_4_CSV.sh
+  939  ./script_4_CSV.sh sales_data
+  940  ./script_4_CSV.sh
+  941  ./script_1_iterateFile.sh Folder1
+  942  ./script_2_Method.sh
+  943  clear
+  944  ./script_3_install.sh 
+  945  ./script_3_install.sh cowsay
+  946  clear
+  947  ./script_3_install.sh cowsay
+  948  ./script_3_install.sh jq
+  949  ./script_3_install.sh fortune cowsay
+  950  clear
+  951  ls 
+  952  ls -la
+  953  ls -a
+  954  clear
+  955  ./script_1_iterateFile.sh Folder1
+  956  clear
+  957  ./script_2_Method.sh
+  958  clear
+  959  ./script_3_install.sh fortune cowsay
+  960  clear
+  961  ./script_4_CSV.sh
+  962  clear
+  963  ./script_4_CSV.sh
+  964  sudo apt install bison
+  965  bison -d list_comp.yacc
+  966  sudo apt install bison 
+  967  bison -d list_comp.yacc
+  968  flex list_comp.lec
+  969  flex list_comp.lex
+  970  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  971  bison -d list_comp.yacc
+  972  flex list_comp.lex
+  973  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  974  bison -d -o list_comp.tab.c list_comp.yacc
+  975  flex list_comp.lex
+  976  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  977  bison -d -o list_comp.tab.c list_comp.yacc
+  978  flex list_comp.lex
+  979  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  980  bison -d -o list_comp.tab.c list_comp.yacc
+  981  flex list_comp.lex
+  982  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  983  bison -d -o list_comp.tab.c list_comp.yacc
+  984  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  985  bison -d -o list_comp.tab.c list_comp.yacc
+  986  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  987  bison -d -o list_comp.tab.c list_comp.yacc
+  988  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  989  flex list_comp.lex
+  990  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  991  ./lex.yy.c < input.txt
+  992  flex list_comp.lex
+  993  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  994  bison -d list_comp.yacc
+  995  bison -d list_comp.y
+  996  bison -d -o list_comp.tab.c list_comp.yacc
+  997  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+  998  flex list_comp.lex
+  999  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1000  bison -d -o list_comp.tab.c list_comp.yacc
+ 1001  flex list_comp.lex
+ 1002  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1003  bison -d -o list_comp.tab.c list_comp.yacc
+ 1004  flex list_comp.lex
+ 1005  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1006  bison -d -o list_comp.tab.c list_comp.yacc
+ 1007  flex list_comp.lex
+ 1008  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1009  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1010  bison -d -o list_comp.tab.c list_comp.yacc
+ 1011  flex list_comp.lex
+ 1012  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1013  echo "1/(1-1);" | ./list_comp
+ 1014  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1015  bison -d -o list_comp.tab.c list_comp.yacc
+ 1016  flex list_comp.lex
+ 1017  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1018  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1019  bison -d -o list_comp.tab.c list_comp.yacc
+ 1020  flex list_comp.lex
+ 1021  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1022  echo "1+1;" | ./list_comp
+ 1023  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1024  bison -d -o list_comp.tab.c list_comp.yacc
+ 1025  flex list_comp.lex
+ 1026  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1027  echo "1 + (2 * 3) / (4 - 2);" | ./list_comp
+ 1028  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1029  bison -d -o list_comp.tab.c list_comp.yacc
+ 1030  flex -o lex.yy.c list_comp.lex
+ 1031  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1032  echo "1+1;" | ./list_comp
+ 1033  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1034  bison -d -o list_comp.tab.c list_comp.yacc
+ 1035  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1036  flex -o lex.yy.c list_comp.lex
+ 1037  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1038  echo "1+1;" | ./list_comp
+ 1039  echo "1/(1-1);" | ./list_comp
+ 1040  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1041  bison -d -o list_comp.tab.c list_comp.yacc
+ 1042  flex -o lex.yy.c list_comp.lex
+ 1043  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1044  echo "1/(1-1);" | ./list_comp
+ 1045  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1046  bison -d -o list_comp.tab.c list_comp.yacc
+ 1047  flex -o lex.yy.c list_comp.lex
+ 1048  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1049  echo "1/(1-1);" | ./list_comp
+ 1050  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1051  bison -d -o list_comp.tab.c list_comp.yacc
+ 1052  flex -o lex.yy.c list_comp.lex
+ 1053  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1054  echo "1/(1-1);" | ./list_comp
+ 1055  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1056  bison -d -o list_comp.tab.c list_comp.yacc
+ 1057  flex -o lex.yy.c list_comp.lex
+ 1058  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1059  echo "1/(1-1);" | ./list_comp
+ 1060  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1061  bison -d -o list_comp.tab.c list_comp.yacc
+ 1062  flex -o lex.yy.c list_comp.lex
+ 1063  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1064  echo "1/(1-1);" | ./list_comp
+ 1065  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1066  bison -d -o list_comp.tab.c list_comp.yacc
+ 1067  flex -o lex.yy.c list_comp.lex
+ 1068  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1069  echo "1/(1-1);" | ./list_comp
+ 1070  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1071  bison -d -o list_comp.tab.c list_comp.yacc
+ 1072  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1073  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1074  bison -d -o list_comp.tab.c list_comp.yacc
+ 1075  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1076  flex -o lex.yy.c list_comp.lex
+ 1077  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1078  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1079  bison -d -o list_comp.tab.c list_comp.yacc
+ 1080  flex -o lex.yy.c list_comp.lex
+ 1081  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1082  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1083  bison -d -o list_comp.tab.c list_comp.yacc
+ 1084  flex -o lex.yy.c list_comp.lex
+ 1085  bison -d -o list_comp.tab.c list_comp.yacc
+ 1086  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1087  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1088  bison -d -o list_comp.tab.c list_comp.yacc
+ 1089  flex -o lex.yy.c list_comp.lex
+ 1090  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1091  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1092  bison -d -o list_comp.tab.c list_comp.yacc
+ 1093  flex -o lex.yy.c list_comp.lex
+ 1094  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1095  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1096  bison -d -o list_comp.tab.c list_comp.yacc
+ 1097  flex -o lex.yy.c list_comp.lex
+ 1098  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1099  bison -d -o list_comp.tab.c list_comp.yacc
+ 1100  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1101  bison -d -o list_comp.tab.c list_comp.yacc
+ 1102  flex -o lex.yy.c list_comp.lex
+ 1103  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1104  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1105  bison -d -o list_comp.tab.c list_comp.yacc
+ 1106  flex -o lex.yy.c list_comp.lex
+ 1107  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1108  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1109  bison -d -o list_comp.tab.c list_comp.yacc
+ 1110  flex -o lex.yy.c list_comp.lex
+ 1111  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1112  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1113  bison -d -o list_comp.tab.c list_comp.yacc
+ 1114  flex -o lex.yy.c list_comp.lex
+ 1115  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1116  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1117  bison -d -o list_comp.tab.c list_comp.yacc
+ 1118  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1119  bison -d -o list_comp.tab.c list_comp.yacc
+ 1120  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1121  bison -d -o list_comp.tab.c list_comp.yacc
+ 1122  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1123  bison -d -o list_comp.tab.c list_comp.yacc
+ 1124  flex -o lex.yy.c list_comp.lex
+ 1125  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1126  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1127  bison -d -o list_comp.tab.c list_comp.yacc
+ 1128  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1129  bison -d -o list_comp.tab.c list_comp.yacc
+ 1130  flex -o lex.yy.c list_comp.lex
+ 1131  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1132  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1133  bison -d -o list_comp.tab.c list_comp.yacc
+ 1134  flex -o lex.yy.c list_comp.lex
+ 1135  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1136  bison -d -o list_comp.tab.c list_comp.yacc
+ 1137  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1138  bison -d -o list_comp.tab.c list_comp.yacc
+ 1139  flex -o lex.yy.c list_comp.lex
+ 1140  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1141  echo "# test list comprehension\nx for x in [1,2,3,4];\nx+1 for x in [];\nx*x for x in [0,3,10,10+10];\n17 for what in [1,2];\nwhat for what in [10,20];" | ./list_comp
+ 1142  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1143  bison -d -o list_comp.tab.c list_comp.yacc
+ 1144  flex -o lex.yy.c list_comp.lex
+ 1145  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1146  echo "# test list comprehension\nx for x in [1,2,3,4];\nx+1 for x in [];\nx*x for x in [0,3,10,10+10];\n17 for what in [1,2];\nwhat for what in [10,20];" | ./list_comp
+ 1147  echo "1/0;" | ./list_comp
+ 1148  echo "1;" | ./list_comp
+ 1149  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1150  bison -d -o list_comp.tab.c list_comp.yacc
+ 1151  flex -o lex.yy.c list_comp.lex
+ 1152  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1153  bison -d -o list_comp.tab.c list_comp.yacc
+ 1154  flex -o lex.yy.c list_comp.lex
+ 1155  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1156  bison -d -o list_comp.tab.c list_comp.yacc
+ 1157  flex -o lex.yy.c list_comp.lex
+ 1158  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1159  echo "1;" | ./list_comp
+ 1160  echo "1/0;" | ./list_comp
+ 1161  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1162  bison -d -o list_comp.tab.c list_comp.yacc
+ 1163  flex -o lex.yy.c list_comp.lex
+ 1164  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1165  echo "1/0;" | ./list_comp
+ 1166  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1167  bison -d -o list_comp.tab.c list_comp.yacc
+ 1168  flex -o lex.yy.c list_comp.lex
+ 1169  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1170  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1171  bison -d -o list_comp.tab.c list_comp.yacc
+ 1172  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1173  bison -d -o list_comp.tab.c list_comp.yacc
+ 1174  flex -o lex.yy.c list_comp.lex
+ 1175  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1176  echo "1/0;" | ./list_comp
+ 1177  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1178  bison -d -o list_comp.tab.c list_comp.yacc
+ 1179  flex -o lex.yy.c list_comp.lex
+ 1180  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1181  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1182  bison -d -o list_comp.tab.c list_comp.y
+ 1183  flex -o lex.yy.c list_comp.l
+ 1184  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1185  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1186  bison -d -o list_comp.tab.c list_comp.y
+ 1187  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1188  bison -d -o list_comp.tab.c list_comp.y
+ 1189  flex -o lex.yy.c list_comp.l
+ 1190  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1191  bison -d -o list_comp.tab.c list_comp.y
+ 1192  flex -o lex.yy.c list_comp.l
+ 1193  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1194  flex -o lex.yy.c list_comp.l
+ 1195  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1196  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1197  bison -d -o list_comp.tab.c list_comp.y
+ 1198  flex -o lex.yy.c list_comp.l
+ 1199  gcc -o list_comp list_comp.tab.c lex.yy.c -lfl
+ 1200  yacc -d list_comp.y
+ 1201  rm -f list_comp.tab.* lex.yy.c list_comp
+ 1202  yacc -d list_comp.y
+ 1203  lex list_comp.l
+ 1204  gcc -o list_comp y.tab.c lex.yy.c -lfl
+ 1205  bison -d -o list_comp.tab.c list_comp.y
+ 1206  lex list_comp.l
+ 1207  gcc -o list_comp y.tab.c lex.yy.c -lfl
+ 1208  flex -o lex.yy.c list_comp.l
+ 1209  lex list_comp.l
+ 1210  gcc -o list_comp y.tab.c lex.yy.c -lfl
+ 1211  yacc -d list_comp.y
+ 1212  flex -o lex.yy.c list_comp.l
+ 1213  gcc -o list_comp y.tab.c lex.yy.c -lfl
+ 1214  lex list_comp.l
+ 1215  bison -d list_comp.y
+ 1216  flex list_comp.l
+ 1217  bison -d list_comp.y -o y.tab.c
+ 1218  flex list_comp.l
+ 1219  gcc lex.yy.c y.tab.c -o list_comp -lm
+ 1220  flex list_comp.l
+ 1221  gcc lex.yy.c y.tab.c -o list_comp -lm
+ 1222  bison -d list_comp.y -o y.tab.c
+ 1223  flex list_comp.l
+ 1224  gcc lex.yy.c y.tab.c -o list_comp -lm
+ 1225  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1226  bison -d list_comp.yacc -o y.tab.c
+ 1227  flex list_comp.lex
+ 1228  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1229  bison -d list_comp.yacc -o y.tab.c
+ 1230  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1231  flex list_comp.lex
+ 1232  bison -d list_comp.yacc -o y.tab.c
+ 1233  flex list_comp.lex
+ 1234  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1235  bison -d list_comp.yacc -o y.tab.c
+ 1236  flex list_comp.lex
+ 1237  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1238  bison -d list_comp.yacc -o y.tab.c
+ 1239  flex list_comp.lex
+ 1240  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1241  bison -d list_comp.yacc -o y.tab.c
+ 1242  flex list_comp.lex
+ 1243  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1244  bison -d list_comp.yacc -o y.tab.c
+ 1245  flex list_comp.lex
+ 1246  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1247  bison -d list_comp.yacc -o y.tab.c
+ 1248  flex list_comp.lex
+ 1249  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1250  bison -d list_comp.yacc -o y.tab.c
+ 1251  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1252  bison -d list_comp.yacc -o y.tab.c
+ 1253  flex list_comp.lex
+ 1254  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1255  bison -d list_comp.yacc -o y.tab.c
+ 1256  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1257  bison -d list_comp.yacc -o y.tab.c
+ 1258  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1259  flex list_comp.lex
+ 1260  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1261  bison -d list_comp.yacc -o y.tab.c
+ 1262  flex list_comp.lex
+ 1263  bison -d list_comp.yacc -o y.tab.c
+ 1264  bison -d list_comp.yacc -o y.tab.c
+ 1265  flex list_comp.lex
+ 1266  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1267  bison -d list_comp.yacc -o y.tab.c
+ 1268  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1269  flex list_comp.lex
+ 1270  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1271  bison -d list_comp.yacc -o y.tab.c
+ 1272  flex list_comp.lex
+ 1273  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1274  bison -d list_comp.yacc -o y.tab.c
+ 1275  flex list_comp.lex
+ 1276  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1277  bison -d list_comp.yacc -o y.tab.c
+ 1278  flex list_comp.lex
+ 1279  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1280  flex list_comp.lex
+ 1281  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1282  bison -d list_comp.yacc -o y.tab.c
+ 1283  flex list_comp.lex
+ 1284  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1285  bison -d list_comp.yacc -o y.tab.c
+ 1286  flex list_comp.lex
+ 1287  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1288  bison -d list_comp.yacc -o y.tab.c
+ 1289  flex list_comp.lex
+ 1290  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1291  bison -d list_comp.yacc -o y.tab.c
+ 1292  flex list_comp.lex
+ 1293  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1294  bison -d list_comp.yacc -o y.tab.c
+ 1295  flex list_comp.lex
+ 1296  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1297  bison -d list_comp.yacc -o y.tab.c
+ 1298  flex list_comp.lex
+ 1299  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1300  bison -d list_comp.yacc -o y.tab.c
+ 1301  flex list_comp.lex
+ 1302  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1303  bison -d list_comp.yacc -o y.tab.c
+ 1304  flex list_comp.lex
+ 1305  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1306  bison -d list_comp.yacc -o y.tab.c
+ 1307  flex list_comp.lex
+ 1308  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1309  bison -d list_comp.yacc -o y.tab.c
+ 1310  flex list_comp.lex
+ 1311  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1312  bison -d list_comp.yacc -o y.tab.c
+ 1313  flex list_comp.lex
+ 1314  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1315  bison -d list_comp.yacc -o y.tab.c
+ 1316  flex list_comp.lex
+ 1317  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1318  bison -d list_comp.yacc -o y.tab.c
+ 1319  flex list_comp.lex
+ 1320  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1321  bison -d list_comp.yacc -o y.tab.c
+ 1322  flex list_comp.lex
+ 1323  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1324  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1325  bison -d list_comp.yacc -o y.tab.c
+ 1326  flex list_comp.lex
+ 1327  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1328  bison -d list_comp.yacc -o y.tab.c
+ 1329  flex list_comp.lex
+ 1330  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1331  bison -d list_comp.yacc -o y.tab.c
+ 1332  flex list_comp.lex
+ 1333  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1334  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1335  bison -d list_comp.yacc -o y.tab.c
+ 1336  flex list_comp.lex
+ 1337  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1338  bison -d list_comp.yacc -o y.tab.c
+ 1339  flex list_comp.lex
+ 1340  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1341  bison -d list_comp.yacc -o y.tab.c
+ 1342  flex list_comp.lex
+ 1343  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1344  bison -d list_comp.yacc -o y.tab.c
+ 1345  flex list_comp.lex
+ 1346  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1347  bison -d list_comp.yacc -o y.tab.c
+ 1348  flex list_comp.lex
+ 1349  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1350  bison -d list_comp.yacc -o y.tab.c
+ 1351  flex list_comp.lex
+ 1352  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1353  bison -d list_comp.yacc -o y.tab.c
+ 1354  flex list_comp.lex
+ 1355  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1356  bison -d list_comp.yacc -o y.tab.c
+ 1357  flex list_comp.lex
+ 1358  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1359  bison -d list_comp.yacc -o y.tab.c
+ 1360  flex list_comp.lex
+ 1361  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1362  bison -d list_comp.yacc -o y.tab.c
+ 1363  flex list_comp.lex
+ 1364  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1365  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1366  bison -d list_comp.yacc -o y.tab.c
+ 1367  flex list_comp.lex
+ 1368  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1369  bison -d list_comp.yacc -o y.tab.c
+ 1370  flex list_comp.lex
+ 1371  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1372  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1373  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1374  bison -d list_comp.yacc -o y.tab.c
+ 1375  flex list_comp.lex
+ 1376  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1377  bison -d list_comp.yacc -o y.tab.c
+ 1378  flex list_comp.lex
+ 1379  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1380  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1381  bison -d list_comp.yacc -o y.tab.c
+ 1382  flex list_comp.lex
+ 1383  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1384  bison -d list_comp.yacc -o y.tab.c
+ 1385  flex list_comp.lex
+ 1386  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1387  bison -d list_comp.yacc -o y.tab.c
+ 1388  flex list_comp.lex
+ 1389  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1390  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1391  bison -d list_comp.yacc -o y.tab.c
+ 1392  flex list_comp.lex
+ 1393  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1394  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1395  bison -d list_comp.yacc -o y.tab.c
+ 1396  flex list_comp.lex
+ 1397  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1398  bison -d list_comp.yacc -o y.tab.c
+ 1399  flex list_comp.lex
+ 1400  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1401  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1402  bison -d list_comp.yacc -o y.tab.c
+ 1403  flex list_comp.lex
+ 1404  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1405  bison -d list_comp.yacc -o y.tab.c
+ 1406  flex list_comp.lex
+ 1407  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1408  bison -d list_comp.yacc -o y.tab.c
+ 1409  flex list_comp.lex
+ 1410  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1411  bison -d list_comp.yacc -o y.tab.c
+ 1412  flex list_comp.lex
+ 1413  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1414  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1415  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1416  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1417  bison -d list_comp.yacc -o y.tab.c
+ 1418  sed -i 's/\xC2\xA0/ /g' list_comp.lex list_comp.yacc
+ 1419  flex list_comp.lex
+ 1420  gcc lex.yy.c y.tab.c -o list_comp -lm -lfl
+ 1421  sudo apt update
+ 1422  git --version
+ 1423  sudo apt install get-all
+ 1424  sudo apt install git-all
+ 1425  git --version
+ 1426  git config --global user.name "soma"
+ 1427  clear
+ 1428  git config --global user.email "soma.eldein@git.com"
+ 1429  git config --global user.name
+ 1430  git config --global user.email
+ 1431  mkdir TestRepo_1
+ 1432  cd TestRepo_1
+ 1433  git init 
+ 1434  ls -la
+ 1435  touch 1.txt
+ 1436  touch 2.txt
+ 1437  git add 1.txt 
+ 1438  git commit -m "1.txt file first inserted to git history repo"
+ 1439  git add 2.txt 
+ 1440  git commit -m "2.txt file first inserted to git history repo"
+ 1441  touch 3.txt
+ 1442  echo "aaaa">>2.txt
+ 1443  git add 2.txt
+ 1444  git status -s
+ 1445  git commit -m "2.txt updated with header"
+ 1446  history
+ 1447  git status
+ 1448  git status -s
+ 1449  git add .
+ 1450  git status -s
+ 1451  git commit -m "3.txt"
+ 1452  git status
+ 1453  git log
+ 1454  gir log online
+ 1455  git log online
+ 1456  git log 2.txt
+ 1457  git log --oneline
+ 1458  git show edd1a1c
+ 1459  code .
+ 1460  ls -la
+ 1461  git log --oneline
+ 1462  git checkout 70d39f9
+ 1463  git log --oneline
+ 1464  git checkout master
+ 1465  ls
+ 1466  git status -s
+ 1467  git restore 1.txt
+ 1468  touch 4.txt
+ 1469  git add .
+ 1470  git commit -m "FIRST TIME ADDED"
+ 1471  git diff --staged
+ 1472  git status 
+ 1473  git log
+ 1474  git add .
+ 1475  git commit -m "create website"
+ 1476  git add .
+ 1477  git commit -m "update js"
+ 1478  get status -s
+ 1479  git status -s
+ 1480  git remote add origin https://github.com/SomaAldein/TestRepo_1.git
+ 1481  git branch -M main
+ 1482  git push -u origin main
+ 1483  git add .
+ 1484  git commit -m "update few files before push"
+ 1485  git push
+ 1486  git add .
+ 1487  cd ..
+ 1488  mkdir cloneApp
+ 1489  cd cloneApp
+ 1490  git clone https://github.com/SomaAldein/TestRepo_1.git
+ 1491  ls
+ 1492  cd TestRepo_1
+ 1493  code /
+ 1494  code .
+ 1495  git branch "TestBr_1"
+ 1496  git checkout TestBr_1
+ 1497  touch br_{1..10}.txt
+ 1498  git add .
+ 1499  git commit -m "Insert 10 files"
+ 1500  git merge TestBr_1
+ 1501  git push
+ 1502  git push -u origin TestBr_1
+ 1503  cd server
+ 1504  npm start
+ 1505  cd ../client
+ 1506  npm start
+ 1507  npm install -g npm@latest --no-optional
+ 1508  cd ..
+ 1509  npm install -g npm@latest --no-optional
+ 1510  sudo apt install
+ 1511  npm install -g npm@latest --no-optional
+ 1512  sudo npm install -g npm@latest --no-optional
+ 1513  cd server
+ 1514  npm install
+ 1515  cd ../client
+ 1516  npm install
+ 1517  cd ../server
+ 1518  ls
+ 1519  cp .env.example .env
+ 1520  .env
+ 1521  env
+ 1522  sudo nautilus 
+ 1523  ls -l
+ 1524  cd ..
+ 1525  cd..
+ 1526  dir 
+ 1527  cd ..
+ 1528  dir
+ 1529  cd var
+ 1530  dir
+ 1531  cd www
+ 1532  dir
+ 1533  ls -l
+ 1534  sudo chmod -R a+w /var/www
+ 1535  ls -l
+ 1536  cd ..
+ 1537  dir
+ 1538  cd etc
+ 1539  dir
+ 1540  cd apache2
+ 1541  dir
+ 1542  ls -l
+ 1543  cd apache2.conf
+ 1544  sudo chmod -R a+w /var/www
+ 1545  sudo chmod -R a+w /etc/apache2
+ 1546  ls -l
+ 1547  netstat -ano | findstr :<port> and taskkill /PID <PID> /F
+ 1548  npm install
+ 1549  cd ..
+ 1550  cd home
+ 1551  cd somaeldein
+ 1552  npm install
+ 1553  ls /home/somaeldein
+ 1554  QueenB-Appsflyer-Hackathon-1
+ 1555  cd QueenB-Appsflyer-Hackathon-1
+ 1556  npm install
+ 1557  node -v
+ 1558  mkdir HW_GIT
+ 1559  cd HW_GIT
+ 1560  code 
+ 1561  sudo apt-get install xlsx2csv
+ 1562  chmod +x commit.sh
+ 1563  ./commit.sh 101 "Fixed login issue" -p -r /path/to/repo
+ 1564  ./commit.sh 101 "Fixed login issue" -p
+ 1565  git init
+ 1566  ./commit.sh 101 "Fixed login issue" -p
+ 1567  mkdir repo1
+ 1568  cd repo1
+ 1569  code .
+ 1570  docker ps
+ 1571  docker exec -it 2be0dbcd3e0e touch test
+ 1572  ls
+ 1573  docker stop 2be0dbcd3e0e
+ 1574  git init
+ 1575  git remote add origin https://github.com/SomaAldein/HomeWork.git
+ 1576  git clone https://github.com/your-username/HomeWork.git
+ 1577  cd HomeWork
+ 1578  git clone https://github.com/SomaAldein/HomeWork.git
+ 1579  cd HomeWork
+ 1580  code .
+ 1581  git remote add origin https://github.com/SomaAldein/HomeWork.git
+ 1582  git init
+ 1583  echo "FIRST commit" > example.txt
+ 1584  git add example.txt
+ 1585  git commit -m "Initial commit"
+ 1586  git checkout -b br_2
+ 1587  chmod +x commit.sh
+ 1588  ./commit.sh 104 "First commit" push "\\wsl.localhost\Ubuntu\home\somaeldein\GIT_HW1\HomeWork"
+ 1589  pip install xlsx2csv
+ 1590  sudo apt install  xlsx2csv
+ 1591  ./commit.sh 104 "First commit" push "\\wsl.localhost\Ubuntu\home\somaeldein\GIT_HW1\HomeWork"
+ 1592  ls /mnt/wsl/Ubuntu/home/somaeldein/GIT_HW1/HomeWork
+ 1593  pwd
+ 1594  ./commit.sh 104 "First commit" push "/home/somaeldein/GIT_HW1/HomeWork"
+ 1595  ./commit.sh 101 "First commit" push "/home/somaeldein/GIT_HW1/HomeWork"
+ 1596  ./commit.sh 105 "Scond commit - br_1" push "/home/somaeldein/GIT_HW1/HomeWork"
+ 1597  echo "second commit" > example2.txt
+ 1598  ./commit.sh 105 "Scond commit - br_1" push "/home/somaeldein/GIT_HW1/HomeWork"
+ 1599  ./commit.sh 103 "without push - br_3" "/home/somaeldein/GIT_HW1/HomeWork"
+ 1600  touch file3.txt
+ 1601  ./commit.sh 103 "without push - br_3" "/home/somaeldein/GIT_HW1/HomeWork"
+ 1602  ./commit.sh  "without push - br_3" "/home/somaeldein/GIT_HW1/HomeWork"
+ 1603  histort
+ 1604  history
+ 1605  cd HomeWork
+ 1606  mkdir BashDockerApp 
+ 1607  code .
+ 1608  python3 temperature_convertor.py 23
+ 1609  docker build -t temperature_convertor-python .
+ 1610  docker run --rm temp-convertor-python 32
+ 1611  docker images
+ 1612  docker run --rm temperature_convertor-python 32
+ 1613  docker run --rm temp-convertor-bash 32
+ 1614  docker build -t temp-convertor-java ./JavaDockers
+ 1615  docker build -t temp-convertor-java ./JavaDocker
+ 1616  docker build -t temp-convertor-java .
+ 1617  venv -v
+ 1618  python3 -m venv EnvMyApp
+ 1619  apt install python3.12-venv
+ 1620  cd ..
+ 1621  apt install python3.12-venv
+ 1622  [200~sudo apt install python3.12-venv
+ 1623  sudo apt install python3.12-venv
+ 1624  python3 -m venv EnvMyApp
+ 1625  pip freeze > requirements.txt
+ 1626  sudo apt install python3.pip
+ 1627  source EnvPyApp/bin/activate
+ 1628  source EnvMyApp/bin/activate
+ 1629  pip install matplotlib pandas
+ 1630  pip freeze > requirements.txt
+ 1631  new file pychart.py
+ 1632  sudo apt install mmh  # version 0.4-6
+ 1633  new file pychart.py
+ 1634  sudo apt install nmh  # version 1.8-1
+ 1635  new file pychart.py
+ 1636  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1637  ./pychartRunner.sh
+ 1638  chmod +x pychartRunner.sh 
+ 1639  ./pychartRunner.sh
+ 1640  docker bulid -t chart-generator
+ 1641  docker bulid  chart-generator
+ 1642  docker images
+ 1643  chmod +x convert_temp.sh
+ 1644  ./convert_temp.sh 22
+ 1645  docker --version
+ 1646  docker build -t temp-convertor-bash .
+ 1647  clear
+ 1648  docker images
+ 1649  docker run --rm temp-convertor-bash
+ 1650  docker images
+ 1651  docker run --rm temp-convertor-bash 22
+ 1652  cd ..
+ 1653  mkdir pythonDockerApp && cd pythonDockerApp
+ 1654  code .
+ 1655  history
+ 1656  docker build -t SomaEldein/temperature-convertor .
+ 1657  docker --version
+ 1658  docker build -t SomaEldein/temperature-convertor .
+ 1659  docker images
+ 1660  docker build -t SomaEldein-python/temperature-convertor .
+ 1661  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1662  python3 pychart.py 101 250,5000,1300 chart_101bB.png
+ 1663  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1664  sudo apt update
+ 1665  sudo apt install python-is-python3
+ 1666  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1667  pip install matplotlib
+ 1668  sudo apt install python3-pip
+ 1669  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1670  docker build -t somaeldein/chart-generator .
+ 1671  docker run somaeldein/chart-generator 101 250,5000,1300 chart_101bB.png
+ 1672  python pychart.py 101 250,5000,1300 chart_101bB.png
+ 1673  docker run somaeldein/chart-generator 101 250,5000,1300 chart_101bB.png
+ 1674  docker run -v $(pwd):/app somaeldein/chart-generator 101 250,5000,1300 /app/chart_101bB.png
+ 1675  docker images
+ 1676  history
+ 1677  docker build -t SomaEldein/bash .
+ 1678  docker images
+ 1679  docker run -it SomaEldein/bash 22
+ 1680  docker run --rm SomaEldein/bash 22
+ 1681  docker build -t somaeldein/temp-converter .
+ 1682  docker run somaeldein/temp-converter 22
+ 1683  dokcer images
+ 1684  docker images
+ 1685  docker run somaeldein/temp-converter 22
+ 1686  history
+ 1687  mkdir JAVAContainer 
+ 1688  cd JAVAContainer
+ 1689  code 
+ 1690  cd JAVAContainer
+ 1691  code .
+ 1692  docker build -t javadocker .
+ 1693  docker run javadocker
+ 1694  docker build -t java-docker-app .
+ 1695  docker run -it --name java-container java-docker-app
+ 1696  docker stop java-container
+ 1697  mkdir PYTHONSQLAPP
+ 1698  cd PYTHONSQLAPP
+ 1699  code .
+ 1700  mkdir CodeDemosProject
+ 1701  cd CodeDemosProject
+ 1702  code .
+ 1703  history
+ 1704  cd ~
+ 1705  mkdir -p LINUX_COURSE_PROJECT/{DOWNLOADS,CODE,DATA,BACKUPS,WORK/{Q1,Q2,Q3,Q4}}
+ 1706  cd LINUX_COURSE_PROJECT
+ 1707  code .
+ 1708  mkdir -p LINUX_COURSE_PROJECT/{DOWNLOADS,CODE,DATA,BACKUPS,WORK/{Q1,Q2,Q3,Q4}}
+ 1709  cd LINUX_COURSE_PROJECT
+ 1710  git init
+ 1711  git remote add origin https://github.com/SomaAldein/Linux_Course_Project.git
+ 1712  git add 
+ 1713  git add .
+ 1714  git commet -m "Project Structure"
+ 1715  git commit -m "Project Structure"
+ 1716  code.
+ 1717  code .
+ 1718  git commit -m "Project Structure"
+ 1719  git add .
+ 1720  git commit -m "Project Structure"
+ 1721  wget -p ~/LINUX_Course_Project https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+ 1722  wget -p ~/LINUX_Course_Project https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+ 1723  tar -xzvf ~/LINUX_COURSE_PROJECT/downloads.tar.gz -C ~/LINUX_COURSE_PROJECT/DOWNLOADS
+ 1724  github.com/Telhai-Git/LINUX_COURSE_WORK/github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags
+ 1725  wget -p ~/LINUX_Course_Project https://github.com/Telhai-Git/LINUX_COURSE_WORK/github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags
+ 1726  tar -xzvf ~/LINUX_COURSE_PROJECT/github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags -C ~/LINUX_COURSE_PROJECT/DOWNLOADS
+ 1727  tar -xzvf ~/LINUX_COURSE_PROJECT/github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -C ~/LINUX_COURSE_PROJECT/DOWNLOADS
+ 1728  git .add
+ 1729  git add .
+ 1730  git commit -m "First Commit-Downloading-Extracting file"
+ 1731  rm -rf /home/somaeldein/LINUX_COURSE_PROJECT/github.com
+ 1732  mkdir -p LINUX_COURSE_PROJECT/{DOWNLOADS,CODE,DATA,BACKUPS,WORK/{Q1,Q2,Q3,Q4}}
+ 1733  cd LINUX_COURSE_PROJECT
+ 1734  code /
+ 1735  code '
+ 1736  code .
+ 1737  git init
+ 1738  git remote origin https://github.com/SomaAldein/Linux_Course_Project.git
+ 1739  git add  remote origin https://github.com/SomaAldein/Linux_Course_Project.git
+ 1740  git remote add origin https://github.com/SomaAldein/Linux_Course_Project.git
+ 1741  historr
+ 1742  history
+ 1743  mkdir -p LINUX_Course_Project/{DOWNLOADS,CODE,DATA,BACKUPS,Work/{Q1,Q2,Q3,Q4}}
+ 1744  cd LINUX_Course_Project
+ 1745  code
+ 1746  cd LINUX_Course_Project
+ 1747  code .
+ 1748  git init
+ 1749  git remote add origin https://github.com/SomaAldein/Linux_Course_Project.git
+ 1750  wget -O downloads.tar.gz https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+ 1751  curl -L -o ~/LINUX_Course_Project/downloads.tar.gz https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz 
+ 1752  tar -xzvf ~/LINUX_Course_Project/downloads.tar.gz -C ~/LINUX_Course_Project/DOWNLOADS
+ 1753  tar -xvzf downloads.tar.gz -C DOWNLOADS
+ 1754  ls -lh downloads.tar.gz
+ 1755  rm downloads.tar.gz
+ 1756  curl -L -o downloads.tar.gz https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+ 1757  ping -c 4 github.com
+ 1758  ping -c 4 8.8.8.8
+ 1759*  ~/LINUX_Course_Project https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz 
+ 1760  wget -O downloads.tar.gz https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+ 1761  tar -xzvf ~/LINUX_Course_Project/doenloads.tar.gz -C ~/LINUX_Course_Project/DOWNLOAD
+ 1762  tar -xzvf ~/LINUX_Course_Project/downloads.tar.gz -C ~/LINUX_Course_Project/DOWNLOAD
+ 1763  tar -xzvf ~/LINUX_Course_Project/downloads.tar.gz -C ~/LINUX_Course_Project/DOWNLOADs
+ 1764  tar -xzvf ~/LINUX_Course_Project/downloads.tar.gz -C ~/LINUX_Course_Project/DOWNLOADS
+ 1765  git add .
+ 1766  git commit -m "FIRST Commit - Downloadin+Extracting "
+ 1767  history
+ 1768  rm downloads.tar.gz
+ 1769  git branch BR_Q1 
+ 1770  git checkout BR_Q1
+ 1771  mv ~/LINUX_Course_Project/DOWNLOADS/* ~/LINUX_Course_Project/CODE
+ 1772  mv ~/LINUX_Course_Project/CODE/*.{csv,jpg,txt} ~/LINUX_Course_Project/DATA
+ 1773  cp ~/LINUX_Course_Project/CODE/*.{csv,jpg,txt} ~/LINUX_Course_Project/DATA/
+ 1774  ls ~/LINUX_Course_Project/CODE
+ 1775  mv ~/LINUX_Course_Project/CODE/LINUX_COURSE_WORK-downloads/* ~/LINUX_Course_Project/CODE/
+ 1776  rm -rf ~/LINUX_Course_Project/CODE/LINUX_COURSE_WORK-downloads/
+ 1777  cp ~/LINUX_Course_Project/CODE/*.{csv,jpg,txt} ~/LINUX_Course_Project/DATA/
+ 1778  touch Work/Q1/q1_output.txt
+ 1779  cd Work/Q1
+ 1780  echo "Time: $(date)" >> q1_output.txt
+ 1781  echo "USER DETAILS: $(grep $USER /etc/passwd)" >> q1_output.txt
+ 1782  echo "REPO: $(pwd)"  >> q1_output.txt
+ 1783* echo echo "VERSIONID: $(grep 'VERSION_ID' /etc/os-release | cut -d '=' -f
+ 1784  echo "VERSIONID: $(grep 'VERSION_ID' /etc/os-release | cut -d '=' -f2)"   >> q1_output.txt
+ 1785  echo " --------------------------------------------------"  >> q1_output.txt
+ 1786  sudo apt install tree -y
+ 1787  tree ../.. >> q1_output.txt 
+ 1788  echo " --------------------------------------------------"  >> q1_output.txt
+ 1789  find ~ -type f -name "*.sh" >> q1_output.txt
+ 1790  git add .
+ 1791  git commit -m "QUESTION 1 DONE"
+ 1792  git status
+ 1793  cd ~/Linux_Course_Project
+ 1794  cd ~/LINUX_Course_Project
+ 1795  git checkout main
+ 1796  git checkout master
+ 1797  git merge BR_Q1
+ 1798  git log > git_commits.log
+ 1799  cat ~/LINUX_Course_Project/git_commits.log
+ 1800  history > ~/LINUX_Course_Project/Work/Q1/history.log
