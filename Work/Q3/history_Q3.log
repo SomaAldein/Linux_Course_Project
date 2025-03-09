@@ -1,0 +1,915 @@
+    1  whoami
+    2  cat /etc/os-release
+    3  whoami
+    4  touch index.html
+    5  touch atpplog.log
+    6  touch data.txt
+    7  mkdir website
+    8  code ./website
+    9  touch index.html
+   10  touch applog.log
+   11  touch data.txt
+   12  cd ..
+   13  sd ..
+   14  cd ..
+   15  ls
+   16  ls -al
+   17  clear
+   18  cd home
+   19  ls
+   20  ls -al
+   21  cd l
+   22  cd lujain/
+   23  clear
+   24  cd /etc/
+   25  pwd
+   26  ls
+   27  clear 
+   28  ls -al 
+   29  clear
+   30  cd ../var/log
+   31  pwd
+   32  cd ../../home
+   33  pwd
+   34  clear
+   35  \wsl$
+   36  \\wsl$
+   37  cd ~
+   38  touch data.txt
+   39  ls -al
+   40  clear
+   41  mkdir Matala_1
+   42  ls
+   43  cd Matala_1/
+   44  code .
+   45  mkdir -p Website/{static/(css,js},views/{html,images}
+   46  mkdir -p Website/{static/{css,js},views/{html,images}
+   47  ls -R
+   48  clear
+   49  mkdir -p Website/{static/{css,js},views/{html,images}
+   50  ls -R
+   51  clear
+   52  mkdir -p Website/{static/{css,js},views/{html,images}}
+   53  ls -R
+   54  clear
+   55  mkdir Test
+   56  mkdir -p Test{Demo1,Demo2}
+   57  mkdir -p Test/{Demo1,Demo2}
+   58  cd Test/Demo1
+   59  touch index.html
+   60  cd ../
+   61  cd Demo2
+   62  touch index.html
+   63  ls -R
+   64  cd ..
+   65  ls -R
+   66  cd ..
+   67  clear
+   68  mkdir -p Test/Dir{1..5}
+   69  cd Test
+   70  ls -R
+   71  clear
+   72  cd Dir1
+   73  touch file1_{1..10}
+   74  cd ..
+   75  touch Dir2/file2_{1..10}.txt
+   76  cd ..
+   77  ls -R
+   78  ls -Ral
+   79  clear
+   80  ls -Ral
+   81  history
+   82  clear
+   83  cat editfile.txt
+   84  cat > editfilee.txt
+   85  cat >> wditfilee.txt
+   86  echo "ABC"
+   87  echo 123
+   88  echo "123" >> editfilee.txt
+   89  echo "456" >> editfilee.txt 
+   90  ls -R
+   91  clear
+   92  ls -Ral >> matala1.txt
+   93  clear
+   94  touch data1.txt
+   95  whoami >> data1.txt
+   96  date >> data.txt
+   97  date >> data1.txt
+   98  echo '-----------' >> data1.txt
+   99  echo -e "line_1...\nline_2...\nline_3..."
+  100  echo -e "line_1..\nline_2...\line_3..." >> data1.txt
+  101  clear 
+  102  mkdir Test
+  103  cd Test
+  104  touch data2.txt
+  105  echo "UseName:$(whoami)"
+  106  echo "UseName:$(whoami)" > data2.txt
+  107  echo "UseName:$(date) >> data2.txt
+  108  clear
+  109  echo "Date:$(date)" >> data2.txt
+  110  cd ..
+  111  cd Test
+  112  echo "UserName:'whoami'"
+  113  clear
+  114  hostnamectl
+  115  cat /eco/os-release
+  116  clear
+  117  echo Os:$(ls_release -d) >> data.log
+  118  echo Os:$(lsb_release -d) >> data.log
+  119  echo "-------------"
+  120  echo "-------------" >> data.log
+  121  pwd
+  122  echo Os:$(lsb_release -d) >> data2.txt
+  123  echo "-------------" >> data2.txt
+  124  echo "locatio user homen: `pwd`" >> data2.txt
+  125  echo "-------------" >> data.log
+  126  ls -l .. >> data.log
+  127  echo "-------------" >> data.log
+  128  history
+  129  nano data.log
+  130  cd ..
+  131  mkdir Matala_2
+  132  cd Test
+  133  clear
+  134  cat /etc/os-release
+  135  echo -e "VERSIONS:\n---------\n`cat/etc/os-release"
+  136  echo -e "VERSIONS:\n---------\n`cat /etc/os-release`" >> os.log
+  137  grep `^VERSION` /etc/os-release
+  138  grep "^VERSION" /etc/os-release
+  139  cat /etc/os-release | grep '^VERSION'
+  140  lear
+  141  clear
+  142  cat /etc/os-release | grep '^VERSION_ID'
+  143  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2
+  144  cat /etc/os-release | grep -E '(^PRETTY_NAME)' | cut -d "-" -f 2
+  145  cat /etc/os-release 
+  146  |
+  147  clear
+  148  cat /etc/os-release | grep -E '(^VERSION_ID)' | cut -d "=" -f 2 >> os.log
+  149  cat /etc/os-release | grep -E '(VERSION_NAME)' | cut -d "=" -f 2 >> os.log
+  150  clear
+  151  cat > emplloyees.csv << EOF
+  152  ID,Name,Department,Salary
+  153  1,John Doe,Engineering,70000
+  154  2,Jane Smith,HR,55000
+  155  3,Bob Johnson,Finance,60000
+  156  4,Alice Davis,Engineering,80000
+  157  5,Chris Wilson,Marketing,45000
+  158  6,Karen Taylor,Finance,62000
+  159  7,Paul Brown,Engineering,75000
+  160  EOF
+  161  cut -d',' -f2 emplloyees.csv 
+  162  cut -d',' -f2 emplloyees.csv >> matala3.txt
+  163  echo "------------">> matala3.txt 
+  164  cut -d',' -f3,4 emplloyees.csv >> matala3.txt
+  165  grep "Engineering" emplloyees.csv 
+  166  echo "------------">> matala3.txt 
+  167  grep "Engineering" emplloyees.csv >> matala3.txt 
+  168  cut -d',' -f3 emplloyees.csv | sort | uniq -c
+  169  echo -e"-----------/n $(cut -d',' -f3 emplloyees.csv | sort | uniq -c) /n----------" >> matala3.txt 
+  170  echo -e"-----------\n $(cut -d',' -f3 emplloyees.csv | sort | uniq -c) \n----------" >> matala3.txt 
+  171  echo "-------------" >> matala3.txt 
+  172  cut -d',' -f3 emplloyees.csv | sort | uniq -c >> matala3.txt 
+  173  echo "-------------" >> matala3.txt 
+  174  sort -t',' -k4 -n emplloyees.csv 
+  175  sort -t',' -k4 -n emplloyees.csv >> matala3.txt 
+  176  echo "-------------" >> matala3.txt 
+  177  sort -t',' -k4 -n emplloyees.csv >> emplloyees.csv 
+  178  awk -F',' 'NR>1 {sum += $4} END {print "Total Salary:", sum}' employees.csv 
+  179  sed 's/HR/Human Resources/g' emplloyees.csv > emplloyeesV2.csv 
+  180  sed 's/HR/Human Resources/g' emplloyees.csv
+  181  clear
+  182  sort -t',' -k4 -n emplloyees.csv | tail -l
+  183  history >> file_history.txt
+  184  ls
+  185  touch a{1..5}
+  186  mkdir A B C
+  187  touch b{3..4}
+  188  touch c5
+  189  cp c5 C/c5_copy
+  190  mkdir Original
+  191  mv a{1..5} b{3..4} c5 Original
+  192  mv Original Original_$(whoami)
+  193  ls
+  194  cp Original_`whoami`/a* A
+  195  cp Original_`whoami`/b* B
+  196  cp -R . Backup_$(date +%Y)-$(date +%m)-$(date +%d)
+  197  cd ..
+  198  ls
+  199  cd MATALA_FILES/=
+  200  cd MATALA_FILES
+  201  clear
+  202  rm -r A B C Original*
+  203  history > history.log_$(date +%Y)-$(date +%m)-$(date +%d)
+  204  echo "--------------" > history.log_2024-11-24 
+  205  history 20 > history.log_2024-11-24 
+  206  echo "--------------" > history.log_2024-11-24 
+  207  ls -R . >> history.log_2024-11-24 
+  208  clear 
+  209  tar cvf backupTar.tar ./*
+  210  tar -tvf backupTat.tar
+  211  mv backupTar.tar backup_tar.tar 
+  212  echo "--------------" > history.log_2024-11-24 
+  213  tar -tvf backup_tar.tar  >> history.log_2024-11-24 
+  214  clear
+  215  tar -cvfz backup2.tar.gz [!*.tar]
+  216  clear
+  217  history
+  218  sudo apt update
+  219  sudo apt install flex gcc build-essential
+  220  flex --version
+  221  gcc --version
+  222  nano cstats.l
+  223  flex cstats.l
+  224  nano cstats.l
+  225  flex cstats.l
+  226  ls
+  227  flex cstats.I
+  228  flex cstats.l
+  229  nano cstats.l
+  230  nano cstats.l
+  231  flex cstats.l
+  232  gcc lex.yy.c -o ostats
+  233  gcc lex.yy.c -o cstats
+  234  code cstats.l
+  235  flex cstats.l
+  236  gcc lex.yy.c -o octal -lfl
+  237  flex cstats.l
+  238  gcc lex.yy.c -o octal -lfl
+  239  ./octal
+  240  gcc lex.yy.c -o octal -lfl
+  241  code cstats.l
+  242  flex cstats.l
+  243  mkdir DownloadFiles
+  244  cd DownloadFiles
+  245  wget https://www.formula1.com/
+  246  wget https://www.msn.com/he-il/news/other/%D7%9E%D7%97%D7%A7%D7%A8-%D7%A4%D7%95%D7%A8%D7%A5-%D7%93%D7%A8%D7%9A-%D7%94%D7%99%D7%A8%D7%A7-%D7%A9%D7%9E%D7%97%D7%96%D7%A7-%D7%90%D7%AA-%D7%94%D7%9C%D7%91-%D7%95%D7%94%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA-%D7%94%D7%97%D7%99%D7%A1%D7%95%D7%A0%D7%99%D7%AA/ar-AA1uVhaW?ocid=msedgdhp&pc=U531&cvid=8feed71ff81740c9843c06d889f308f1&ei=25
+  247  wget https://code.jquery.com/jquery-3.7.1.slim.js
+  248  wget -O pic1.png https://www.pngwing.com/en/free-png-btisl
+  249  wget -O pic1.png https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-wpbek&psig=AOvVaw01EbTXBImnZlhZu37Mfrrm&ust=1733129637901000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLixrJWZhooDFQAAAAAdAAAAABAU
+  250  wget -O pic2.jpeg https://bairesdev.mo.cloudinary.net/blog/2021/11/Linux.png?tx=w_1920,q_auto
+  251  wget -O pic1.jpeg https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg
+  252  wget https://jsonplaceholder.typicode.com/posts
+  253  mv posts posts.json
+  254  mv posts -O album_7 https://jsonplaceholder.typicode.com/
+  255  mv Webite/ Website && cd Website
+  256  clear
+  257  tar czvf downloadedFiles.tar.gz *
+  258  rm *.json *html *.js 300
+  259  rm pic.*
+  260  rm pic*
+  261  rm -r Website/
+  262  tar tvf downloadFiles.tar.gz
+  263  tar xzvf downloadFiles.tar.gz
+  264  tar xzvf downloadedFiles.tar.gz
+  265  curl http://example.com > example_com.html
+  266  history
+  267  cd..
+  268  cd ..
+  269  clear 
+  270  sudo apt update
+  271  apt list --upgradable
+  272  apt update
+  273  sudo apt update
+  274  sudo apt update && sudo apt upgrade -y
+  275  clear
+  276  apt search figlet
+  277  which figlet
+  278  apt show figlet
+  279  sudo apt update && sudo apt install figlet
+  280  which figlet
+  281  figlet
+  282  figlet LINUX
+  283  figlet LINUX - DEV
+  284  cmatrix
+  285  figlet cmatrix
+  286  figlet
+  287  figlet cowsay
+  288  sudo apt unstall cmatrix
+  289  sudo apt install cmatrix
+  290  cmatrix
+  291  sudo apt install cowsay
+  292  sudo apt update && sudo apt install neofetch -y
+  293  neofetch
+  294  sudo apt install nodejs
+  295  which node.js
+  296  which nodejs
+  297  node -v
+  298  npm -v
+  299  sudo apt install npm
+  300  npm -v
+  301  mkdir p Apps/NodesJs
+  302  mkdir -p Apps/NodesJs
+  303  cd Apps/NodesJs
+  304  code .
+  305  touch index.js
+  306  node index.js
+  307  npm -v
+  308  npm init
+  309  node index.js
+  310  curl localhost:3000 > response.txt
+  311  curl localhost:3000 > res_client
+  312  fortune
+  313  cowsay "Hello. world"
+  314  clear 
+  315  sudo apt update && sudo apt install fortune
+  316  fortune
+  317  cowsay "Hello, Ubuntu!"
+  318  fortune | cowsay
+  319  clear
+  320  touch installs.log
+  321  echo "----about Installing htop... $(date)" >> installs.log 
+  322  echo "---updating Repo..." >> installs.log 
+  323  sudo apt update >> installs.log  2>&1
+  324  echo "----htop installing details:" >> installs.log 
+  325  apt show htop >> installs.log  2>&1
+  326  sudo apt install htop -y >> installs.log 2>&1
+  327  htop_
+  328  htop_version=$(htop --version)
+  329  echo "----htop installed version: $htop_version" >> installs.log 
+  330  htop_path=$(wich htop)
+  331  htop_path=$(which htop)
+  332  echo "htop installed directory: $(dirname $htop_path)" >> installs.log 
+  333  echo "----Running htop... $(date)" >> installs.log
+  334  htop
+  335  sudo apt install aha -y >> installs.log 2>&1
+  336  htop | aha --black > htop.html
+  337  clear
+  338  node -v
+  339  npm -v
+  340  mkdir node_server && cd node_server
+  341  npm init -y
+  342  npm install
+  343  touch server.js
+  344  node server.js 
+  345  echo "Request Time: $(date)" >> server_response.txt
+  346  curl http://localhost:5000 >> server_response.txt
+  347  wget http://<your-server-ip>:5000/htop.html -O saved_htop.html
+  348  wget http://localhost:5000/htop.html -O saved_htop.html
+  349  mkdir Scripts && cd Scripts
+  350  cd .
+  351  .
+  352  cd ..
+  353  mkdir Scripts && cd Scripts
+  354  cd Scripts
+  355  cd .
+  356  touch sctipt1.sh
+  357  mv sctipt1.sh script1.sh
+  358  chmod 755 script1.sh 
+  359  ./script1.sh 
+  360  ./script1.sh | grep 100
+  361  ./script1.sh 
+  362  ./script1.sh >> outputscript
+  363  ./script1.sh 
+  364  ./script1.sh >> outputscript
+  365  ./script1.sh 
+  366  ./script1.sh a -b -c
+  367  ./script1.sh a b c 23 des
+  368  clear
+  369  chmod +x script2.sh 
+  370  ../cc
+  371  cd ../
+  372  chmod +x script2.sh 
+  373  cd ../Scripts
+  374  /Scripts
+  375  cd /Scripts
+  376  cd ../Scripts
+  377  cd Scripts/
+  378  touch scripts2.sh
+  379  chmod +x script2.sh 
+  380  chmod +x scripts2.sh 
+  381  touch script3.sh
+  382  touch script4.sh
+  383  history
+  384  mkdir BashScript
+  385  cd BashScript
+  386  code .
+  387  touch script1.sh
+  388  chmod 777 script1.sh 
+  389  ls
+  390  ls -la
+  391  ./script1.sh 
+  392  ls 0la
+  393  ls -la
+  394  ./script2_RunPython.sh
+  395  chmod 777 script2_RunPython.sh
+  396  ./script2_RunPython.sh
+  397  python3 Python/app.py XXX YYYY
+  398  mkdir HW_Scripting
+  399  cd HW_Scripting
+  400  cd .
+  401  cd ./
+  402  HW_Q1
+  403  /HW_Q1
+  404  cd HW_Q1
+  405  chmod +x combine.sh
+  406  ./combine.sh ~/TestFiles generated.txt
+  407  mkdir HW_SCRIPTIONG
+  408  mkdir HW_SCRIPTING
+  409  cd HW_Q1
+  410  touch combine.sh
+  411  nano combine.sh 
+  412  chmod +x combine.sh 
+  413  mkdir TestFiles
+  414  cd TestFiles/
+  415  echo "Hello World from file1" > file1.txt
+  416  echo "This is a log entry" > file2.log
+  417  echo "Another text file" > file3.txt
+  418  echo "Log file content" > file4.log
+  419  cd HW_Q1
+  420  cd ../HW_Q1
+  421  cd ../
+  422  ./combine.sh ~/HW_SCRIPTING/TestFiles generated.txt
+  423  ./combine.sh ./HW_Q1/TestFiles generated.txt
+  424  ./combine.sh ./TestFiles generated.txt
+  425  cd ../
+  426  cd HW_Q2
+  427  mkdir updater.sh
+  428  nano updater.sh
+  429  touch updater.sh
+  430  chmod +x updater.sh
+  431  ./updater.sh ~/data/help.txt "1.01" "2.01"
+  432  ./updater.sh ./data/help.txt "1.01" "2.01"
+  433  cd ../
+  434  cd HW_Q3/
+  435  touch updater.sh
+  436  chmod +x updater.sh 
+  437  ./updater.sh ./data/help.txt "1.01" "2.01" "12/05/22" "15/03/23"
+  438  ./updater.sh ./data/help_temp.txt "1.01" "2.01" "12/05/22" "15/03/23"
+  439  cd ../
+  440  clear
+  441  history
+  442  mkdir BashScript2
+  443  code ./BashScript2
+  444  touch script_1_iterateFile.sh
+  445  chmod +x script_1_iterateFile.sh 
+  446  mkdir Folder1
+  447  touch Folder1/f1.txt Folder1/f2.txt Folder1/f3/txt
+  448  touch Folder1/f1.txt Folder1/f2.txt Folder1/f3.txt
+  449  chmod +x script_2_Method.sh 
+  450  ./script_2_Method.sh 
+  451  ./script_1_iterateFile.sh Folder1
+  452  ./script_2_Mwthod.sh
+  453  ./script_2_Method.sh
+  454  clear
+  455  ./script_3_install.sh cowsay
+  456  chmod +x script_3_install.sh 
+  457  ./script_3_install.sh cowsay
+  458  ./script_3_install.sh fortune
+  459  ./script_4_install.sh
+  460  clear
+  461  chmod +x script_4_CSV.sh 
+  462  ./script_4_CSV.sh
+  463  ./script_1_iterateFile.sh Folder1
+  464  clear
+  465  ./script_1_iterateFile.sh Folder1
+  466  flex list_comp.l
+  467  bison -d list_comp.y
+  468  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  469  flex list_comp.l
+  470  bison -d list_comp.y
+  471  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  472  flex list_comp.l
+  473  flex --version
+  474  file list_comp.l
+  475  flex -f list_comp.l
+  476  bison -d list_comp.y
+  477  rm lex.yy.c y.tab.*
+  478  flex list_comp.l
+  479  bison -d list_comp.y
+  480  sudo apt update
+  481  sudo apt install bison
+  482  bison --version
+  483  bison -d list_comp.y
+  484  rm lex.yy.c y.tab.*
+  485  flex list_comp.l
+  486  bison -d list_comp.y
+  487  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  488  bison -d list_comp.y
+  489  flex list_comp.l
+  490  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  491  flex list_comp.l
+  492  rm -f lex.yy.c y.tab.*
+  493  bison -d list_comp.y
+  494  flex list_comp.l
+  495  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  496  rm -f lex.yy.c y.tab.*
+  497  bison -d -o custom_parser.c list_comp.y
+  498  bison -d -o y.tab.c y.tab.h
+  499  rm -f lex.yy.c y.tab.*
+  500  bison -d -o y.tab.c y.tab.h
+  501  bison -d -o y.tab.c list_comp.y
+  502  flex list_comp.l
+  503  gcc -o list_comp y.tab.c lex.yy.c -ll -ly
+  504  flex list_comp.l
+  505  bison -d list_comp.y
+  506  gcc -o list_comp y.tab.c lex.yy.c -ll
+  507  rm -f lex.yy.c y.tab.*
+  508  flex list_comp.l
+  509  bison -d list_comp.y
+  510  gcc -o list_comp y.tab.c lex.yy.c -ll
+  511  rm -f lex.yy.c y.tab.*
+  512  flex list_comp.l
+  513  bison -d y.tab.y
+  514  rm -f lex.yy.c y.tab.*
+  515  flex list_comp.l
+  516  bison -d -o y.yab.c list_comp.y
+  517  gcc -o list_comp y.yab.c lex.yy.c -ll
+  518  rm -f lex.yy.c y.tab.*
+  519  flex list_comp.l
+  520  bison -d -o y.tab.c list_comp.y
+  521  gcc -o list_comp y.yab.c lex.yy.c -ll
+  522  ./list_comp
+  523  rm -f lex.yy.c y.tab.*
+  524  flex list_comp.l\
+  525  flex list_comp.l
+  526  bison -d -o y.tab.c list_comp.y
+  527  gcc -o list_comp y.yab.c lex.yy.c -ll
+  528  gcc -o list_comp y.tab.c lex.yy.c -ll
+  529  ./list_comp
+  530  rm -f lex.yy.c y.tab.*
+  531  flex list_comp.l
+  532  bison -d -o y.tab.c list_comp.y
+  533  gcc -o list_comp y.tab.c lex.yy.c -ll
+  534  rm -f lex.yy.c y.tab.*
+  535  flex list_comp.l
+  536  bison -d list_comp.y
+  537  rm -f lex.yy.c y.tab.*
+  538  flex list_comp.l
+  539  bison -d -o y.tab.c list_comp.y
+  540  gcc -o list_comp y.tab.c lex.yy.c -ll
+  541  rm -f lex.yy.c y.tab.*
+  542  flex list_comp.l
+  543  bison -d -o y.tab.c list_comp.y
+  544  gcc -o list_comp y.tab.c lex.yy.c -ll
+  545  rm -f lex.yy.c y.tab.*
+  546  bison -d -o y.tab.c list_comp.y
+  547  flex list_comp.l
+  548  gcc -o list_comp y.tab.c lex.yy.c -ll
+  549  ./list_comp
+  550  rm -f lex.yy.c y.tab.*
+  551  bison -d -o y.tab.c list_comp.y
+  552  flex list_comp.l
+  553  gcc -o list_comp y.tab.c lex.yy.c -ll
+  554  ./list_comp
+  555  rm -f lex.yy.c y.tab.*
+  556  bison -d -o y.tab.c list_comp.y
+  557  flex list_comp.l
+  558  gcc -o list_comp y.tab.c lex.yy.c -ll
+  559  ./list_comp
+  560  rm -f lex.yy.c y.tab.*
+  561  bison -d -o y.tab.c list_comp.y
+  562  rm -f lex.yy.c y.tab.*
+  563  bison -d -o y.tab.c list_comp.y
+  564  flex list_comp.l
+  565  gcc -o list_comp y.tab.c lex.yy.c -ll
+  566  ./list_comp
+  567  rm -f lex.yy.c y.tab.*
+  568  bison -d -o y.tab.c list_comp.y
+  569  flex list_comp.l
+  570  gcc -o list_comp y.tab.c lex.yy.c -ll
+  571  ./list_comp
+  572  sudo apt updates
+  573  sudo apt update & sudo apt install git-all
+  574  git --version
+  575  clear
+  576  ls
+  577  git add 1.txt
+  578  toch 1.txt
+  579  touch 1.txt
+  580  touch 2.txt 
+  581  ls
+  582  git add 1.txt
+  583  touch 1.txt
+  584  touch 2.txt
+  585  git add 1.txt
+  586  touch 1.txt
+  587  touch 2.txt
+  588  git init
+  589  git add 1.txt
+  590  git add 2.txt
+  591  git config --global user.name "lujain"
+  592  git config --global user.email "lojen.awidat@gmail.com"
+  593  git add 1.txt
+  594  git add 2.txt
+  595  git commit -m "1.txt file first inserted to git history repo"
+  596  git commit -m "2.txt file first inserted to git history repo"
+  597  touch 3.txt
+  598  echo "aaaa" >> 2.txt
+  599  git add 2.txt
+  600  git status -s
+  601  git commit -m "2.txt updated with header"
+  602  ls
+  603  git status
+  604  git status -s
+  605  git add .
+  606  git status
+  607  git commit -m "3.txt"
+  608  git status
+  609  git log
+  610  git log 2.txt
+  611  git loc --online
+  612  git loc --oneline
+  613  git log --oneline
+  614  git log --oneline 2.txt
+  615  git show 69abb68
+  616  git show 69abb68:2.txt
+  617  ls la
+  618  ls -la
+  619  git log --oneline
+  620  git checkout 999b879
+  621  git log --oneline
+  622  clear
+  623  git checkout master
+  624  ls
+  625  git status -s
+  626  touch 4.txt
+  627  git status
+  628  git add .
+  629  git commit -m "FIEST TIME ADDED"
+  630  git diff --staged
+  631  git status
+  632  git restore --staged 4.txt
+  633  git log
+  634  clear 
+  635  git add .
+  636  git commit -m "Create WebSite"
+  637  git add .
+  638  git commit -m "update js"
+  639  status
+  640  git status 
+  641  git status -s
+  642  clear
+  643  git remote add origin https://github.com/Lujainawi/TestRepo_1.git
+  644  git branch -M main
+  645  git push -u origin main
+  646  git add .
+  647  gitIcommit -m "update few files before push"
+  648  gitcommit -m "update few files before push"
+  649  git commit -m "update few files before push"
+  650  clear
+  651  git push
+  652  cd ..
+  653  mkdir cloneAPP/
+  654  cd cloneAPP/
+  655  clear
+  656  glt branch "TestBr_1"
+  657  clear
+  658  chmod +x commit.sh
+  659  ./commit.sh 101 "Fixed a bug in module X" --push
+  660  chmod +x commit.sh
+  661  git status
+  662  clear
+  663  chmod +x commit.sh
+  664  ls
+  665  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  666  git status
+  667  ls
+  668  git init
+  669  git add .
+  670  git commit -m "Initial commit"
+  671  git status
+  672  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  673  ./commit.sh 101 "Fixed a bug in module X" --push --repo /home/lujain/GIT_AND_GITHUB
+  674  python3 -m pip install pandas openpyxl
+  675  sudo apt update
+  676  sudo apt install python3-pip
+  677  python3 -m pip --version
+  678  python3 -m pip install pandas openpyxl
+  679  python3 -m venv venv
+  680  cd /home/lujain/GIT_AND_GITHUB
+  681  python3 -m venv venv
+  682  sudo apt update
+  683  sudo apt install python3-venv
+  684  python3 -m venv venv
+  685  source venv/bin/activate
+  686  pip install pandas openpyxl
+  687  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  688  ./commit.sh 101 "Fixed a bug in module X" --push --repo /home/lujain/GIT_AND_GITHUB
+  689  source /home/lujain/GIT_AND_GITHUB/venv/bin/activate
+  690  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  691  python3 read_excel.py 101
+  692  git branch --show-current
+  693  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  694  git branch --show-current
+  695  git branch
+  696  git checkout -b bugfix/login
+  697  git branch
+  698  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  699  python3 read_excel.py 101
+  700  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  701  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  702  ./commit.sh 101 "Fixed a bug in module X" --push --repo /home/lujain/projects/my-repo
+  703  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  704  ./commit.sh 101 "Fixed a bug in module X" --push --repo /home/lujain/GIT_AND_GITHUB/read_excel.py
+  705  ./commit.sh 101 "Fixed a bug in module X" --push --repo /read_excel.py
+  706  source /home/lujain/GIT_AND_GITHUB/venv/bin/activate
+  707  pip install pandas openpyxl
+  708  source /home/lujain/GIT_AND_GITHUB/venv/bin/activate
+  709  ./commit.sh 101 "Fixed a bug in module X" --push --repo $(pwd)
+  710  sudo apt update
+  711  sudo apt install xlsx2csv
+  712  python3 read_excel.py 101
+  713  python3 --version
+  714  pip3 install pandas openpyxl
+  715  python3 -m venv venv
+  716  source venv/bin/activate
+  717  pip install pandas openpyxl
+  718  pip list
+  719  python3 read_excel.py 101
+  720  pip3 install --user pandas openpyxl
+  721  try apt install python3-xyz
+  722  apt install python3-xyz
+  723  sudo apt update
+  724  sudo apt install python3-pandas
+  725  pip3 install openpyxl --break-system-packages
+  726  python3 read_excel.py 101
+  727  sudo apt install pipx
+  728  pipx install pandas
+  729  pipx install pandas --include-deps
+  730  pipx inject pandas openpyxl
+  731  python3 read_excel.py 101
+  732  pipx list
+  733  pipx install pandas
+  734  pipx inject pandas openpyxl
+  735  pipx run pandas python3 read_excel.py 101
+  736  pip3 install --user pandas openpyxl
+  737  pip show pandas
+  738  sudo apt update
+  739  sudo apt install python3-pip python3-venv
+  740  pip install pandas openpyxl
+  741  python3 -m venv venv
+  742  source venv/bin/activate
+  743  pip install pandas openpyxl
+  744  pip list
+  745  python3 read_excel.py 101
+  746  python3 read_excel.py 101
+  747  source /home/lujain/GIT_AND_GITHUB/venv/bin/activate
+  748  python3 read_excel.py 101
+  749  pip install pandas openpyxl
+  750  python3 read_excel.py 101
+  751  source /home/lujain/GIT_AND_GITHUB/venv/bin/activate && python3 read_excel.py "$TASK_ID"
+  752  mkdir repo1
+  753  cd repo1
+  754  code .
+  755  git init
+  756  touch file1.txt
+  757  git add .
+  758  git commit -m "insert new file - file1.txt"
+  759  git checkout -b "br_1"
+  760  git checkout
+  761  git branch
+  762  git commit -m "update in br_1"
+  763  git merge br_1
+  764  sudo apt-get install xlsx2csv
+  765  chmod +x commit.sh
+  766  init git
+  767  git init
+  768  git remote add origin https://github.com/Lujainawi/GIT_LINUX.git
+  769  echo "Lujain" >> file1.txt
+  770  git commit -m "lujain-commit"
+  771  echo "Lujain" >> file1.txt
+  772  git add file1.txt
+  773  git commit -m "lujain-commit"
+  774  ./commit.sh 101 "first branch" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  775  cd GIT_LINUX
+  776  code .
+  777  ./commit.sh 101 "first branch" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  778  git brnach
+  779  git branch
+  780  ./commit.sh 101 "first branch" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  781  sudo pip install --upgrade xlsx2csv
+  782  git branch --show-current
+  783  git checkout -f branch1
+  784  ./commit.sh 102 "first branch" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  785  git remote -v
+  786  git remote add origin https://github.com/Lujainawi/GIT_LINUX.git
+  787  git status
+  788  git "Lujain" >> file_example.txt
+  789  echo  "Lujain" >> file_example.txt
+  790  git init
+  791  touch file1.txt
+  792  ./commit.sh 101 "branch1-commit" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  793  git checkout branch1
+  794  git remote add origin https://github.com/Lujainawi/GIT_LINUX.git
+  795  git branch -M main
+  796  git checkout branch1
+  797  ./commit.sh 101 "branch1-commit" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  798  git remote add origin https://github.com/Lujainawi/GIT_LINUX.git
+  799  ./commit.sh 101 "branch1-commit" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  800  git checkout branch1
+  801  git status
+  802  git add file_example.txt
+  803  git commit -m "First commit"
+  804  git push origin master
+  805  git push origin branch1
+  806  git branch
+  807  git checkout -b branch1
+  808  git push origin branch1
+  809  touch file_branch2.txt
+  810  ./commit.sh 101 "branch1-file_example" push "https://github.com/Lujainawi/GIT_LINUX.git"
+  811  ./commit.sh 101 "branch1-file_example" push "home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  812  ./commit.sh 101 "branch1-file_example" push "/home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  813  echo "second commit" >> file_branch2.txt
+  814  ./commit.sh 102 "branch2-file_branch2.txt" push "/home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  815  git status
+  816  git checkout -b branch2
+  817  ./commit.sh 102 "branch2-file_branch2.txt" push "/home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  818  touch example3.txt
+  819  git checkout -b branch3
+  820  ./commit.sh 103 "branch3-add new file" push "/home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  821  ./commit.sh 102 "branch2-file_branch2.txt" push "/home/lujain/GIT_AND_GITHUB/GIT_LINUX"
+  822  mkdir BashDockerApp && cd BashDockerApp
+  823  codr .
+  824  code .
+  825  chmpd +x convert_temp.sh
+  826  chmod +x convert_temp.sh
+  827  ./convert_temp.sh 22
+  828  docker --version
+  829  docker build -t temp-convertor-bash .
+  830  docker run --rm temp-convertor-bash 22
+  831  cd ..
+  832  mkdir pythonDockerApp && cd pythonDockerApp
+  833  code .
+  834  python3 temperature_convertor.py 23
+  835  python3 temperature_convertor.py 28
+  836  docker build -t temp-convertor-python .
+  837  docker run --rm  temp-convertor-python 32
+  838  docker run --rm temp-convertor-python 32
+  839  docker run --help
+  840  docker images
+  841  docker build -t temp-convertor-python .
+  842  pyton --virsion
+  843  pyton -v
+  844  python -v
+  845  python3 -v
+  846  python --version
+  847  python3 --version
+  848  docker build -t temp-convertor-python .
+  849  docker build -t temp-convertor-java .
+  850  docker run -it temp-convertor-java 
+  851  docker ps -a
+  852  docker build -t temp-convertor-python .
+  853  docker build -t temp-convertor-java 
+  854  docker build -t temp-convertor-java .
+  855  nenv --version
+  856  pip install --upgrade pip
+  857  clear 
+  858  python3 -m venv EnvPyApp
+  859  source EnvPuApp/bin/activate
+  860  source EnvPyApp/bin/activate
+  861  pip install matolotlib pandas
+  862  pip install matplotlib pandas
+  863  pip freeze > requirements.txt
+  864  python pychart.py 101 250,5000,1200 chart_101.png
+  865  deactivate
+  866  activate
+  867  source EnvPyApp/bin/activate
+  868  python pychart.py 101 250,5000,1200 chart_101B.png
+  869  ./pychartRunner.sh
+  870  chmod +x puchartRunner.sh
+  871  chmod +x pychartRunner.sh
+  872  ./pychartRunner.sh
+  873  docker build -t my-java-temp-converter .
+  874  docker build -t lujainawi/temperature-convertor .
+  875  docker build -t lujainawi-bash/temperature-convertor .
+  876  docker run -it lujainawi-bash/temperature-convertor
+  877  docker run -it lujainawi-bash/temperature-convertor 70
+  878  docker images
+  879  ls -l
+  880  mv TemperatureConverter.java TemperatureConvertor.java
+  881  docker build -t lujainawi/temperature-convertor .
+  882  docker run -it SomaEldein/temperature-convertor
+  883  docker run -it lujainawi/temperature-convertor
+  884  docker images 
+  885  docker build -t lujainawi/pychart .
+  886  docker run -it lujainawi/pychart
+  887  docker run -it lujainawi/pychart 101 250,5000,1300 chart_101b.png
+  888  docker images
+  889  mkdir JavaCotaier && cd JavaCotaier
+  890  mkdir CodeDemosProject
+  891  cd CodeDemosProject/
+  892  code .
+  893  mkdir -p LINUX_COURSE_PROJECT/{DOWNLOADS,CODE,DATA,BACKUPS,WORK/{Q1,Q2,Q3,Q4}}
+  894  cd LINUX_COURSE_PROJECT
+  895  git init
+  896  git remote add origin https://github.com/Lujainawi/LINUX_COURSE_PROJECT.git
+  897  wget -O downloads.tar.gz https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+  898  code .
+  899  tar -xvzf downloads.tar.gz -C DOWNLOADS
+  900  git add .
+  901  git commmit -m "FirstCommit"
+  902  git commit -m "FirstCommit"
+  903  git branch -M main
+  904  git push -u origin main
+  905  cd Work/Q3
+  906  cd Work
+  907  mkdir Q3
+  908  cd Q3
+  909  touch menu.sh
+  910  git checkout BR_CSV
+  911  git -b checkout BR_CSV
+  912  git checkout -b  BR_CSV
+  913  chmod +x menu.sh
+  914  ./menu.sh
+  915  history > history_Q3.log
