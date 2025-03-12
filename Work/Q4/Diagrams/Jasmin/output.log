@@ -1,0 +1,8 @@
+Plant: Jasmin
+Height data: [40.0, 50.0, 60.0] cm
+Leaf count data: [3, 4, 5]
+Dry weight data: [10.0, 12.0, 14.0] g
+Generated plots for Jasmin:
+Scatter plot saved as Jasmin_scatter.png
+Histogram saved as Jasmin_histogram.png
+Line plot saved as Jasmin_line_plot.png
