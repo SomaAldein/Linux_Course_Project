@@ -1,8 +1,0 @@
-Plant: Lily
-Height data: [60.0, 65.0, 70.0] cm
-Leaf count data: [20, 22, 24]
-Dry weight data: [2.5, 2.7, 3.0] g
-Generated plots for Lily:
-Scatter plot saved as Lily_scatter.png
-Histogram saved as Lily_histogram.png
-Line plot saved as Lily_line_plot.png

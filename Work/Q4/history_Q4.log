@@ -1,0 +1,196 @@
+    1  history
+    2  cd LINUX_Course_Project
+    3  cp CODE/plant.py /Work/Q2/
+    4  cp CODE/plant.py Work/Q2/
+    5  pip install matplotlib numpy
+    6  pip3 install matplotlib
+    7  sudo apt install pipx
+    8  pipx install matplotlib
+    9  sudo apt install
+   10  sudo apt install python3-pip
+   11  pip3 install matplotlib
+   12  python3 -m pip install matplotlib
+   13  python3 Work/Q2/plant.py
+   14  python3 -m venv my_env
+   15  source my_env/bin/activate
+   16  pip install matplotlib
+   17  python plant.py
+   18  cd Work/Q2
+   19  python plant.py
+   20  deactivate
+   21  mkdir Diagrams_1
+   22  mv *.png Diagrams_1 
+   23  tar -czvf ~/LINUX_Course_Project/BACKUPS/diagrams_Q2__$(date +"%Y-%m-%d_%H-%M-%S").tar.gz -C 1_Diagrams .
+   24  tar -czvf ~/LINUX_Course_Project/BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").tar.gz -C Diagrams_1
+   25  zip -r BACKUPS/diagrams_backup_$$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_1
+   26  zip -r BACKUPS/diagrams_backup_$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_1
+   27  sudo apt install zip
+   28  zip -r BACKUPS/diagrams_backup_$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_1
+   29  cd .
+   30  cd ..
+   31  zip -r BACKUPS/diagrams_backup_$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_1
+   32  zip -r BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/ Diagrams_1
+   33  zip -r BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/ Diagrams_1/*
+   34  zip -r BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/Diagrams_1/*
+   35  zip -r BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_1/*
+   36  zip -r BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/Diagrams_1/*
+   37  zip -j BACKUPS/diagrams_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/Diagrams_1/*
+   38  git add .
+   39  git commit -m "QUESTION 2 - PART A DONE"
+   40  git checkout master
+   41  git merge BR_Q2
+   42  git push origin master
+   43  git push origin BR_Q2
+   44  cd Work/Q2
+   45  touch plant_analyzer.py
+   46  python3 plant_visualizer.py --plant "Tulip" --height 15 20 25 30  --leaf_count 10 10 12 14  --dry_weight 1.2 1.5 1.8 1.3
+   47  python3 plant_analyzer.py --plant "Tulip" --height 15 20 25 30  --leaf_count 10 10 12 14  --dry_weight 1.2 1.5 1.8 1.3
+   48  python3 -m venv venv
+   49  source venv/bin/activate
+   50  pip install package matplotlib argsparse
+   51  pip install matplotlib
+   52  pip install argparse
+   53  pip freeze > requirements.txt
+   54  pip uninstall -y matplotlib argparse
+   55  pip install -r requirements.txt
+   56  python3 plant_plots.py --plant "Tulip" --height 15 20 22 23 --leaf_count 10 12 13 14  --dry_weight 1.2 1.5 1.8 2.0
+   57  python3 plant_analyzer.py --plant "Tulip" --height 15 20 22 23 --leaf_count 10 12 13 14  --dry_weight 1.2 1.5 1.8 2.0
+   58  pip install -r requirements.txt
+   59  pip list | grep matplotlib
+   60  python3 plant_analyzer.py --plant "Tulip" --height 15 20 22 23 --leaf_count 10 12 13 14  --dry_weight 1.2 1.5 1.8 2.0
+   61  mkdir Diagrams_2
+   62  mv *.png Diagrams_2
+   63  zip -j BACKUPS/diagrams_2_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Work/Q2/Diagrams_2/*
+   64  zip -j ~/LINUX_Course_Project/BACKUPS/diagrams_2_Q2_$(date +"%Y-%m-%d_%H-%M-%S").zip Diagrams_2/*
+   65  history > history_Q2.log
+   66  add .
+   67  deactivate
+   68  add .
+   69  git add .
+   70  git commit -m 
+   71  git commit -m "QUESTION 2 DONE - generic plant analyzer"
+   72  git checkout master
+   73  git merge BR_Q2
+   74  git push origin master
+   75  git push origin BR_Q@
+   76  git push origin BR_Q2
+   77  git log > git_commits_2.log
+   78  mv git_commits_2.log ~/LINUX_Course_Project
+   79  git add .
+   80  git commit -m "adding commits file"
+   81  cd ..
+   82  git add .
+   83  git commit -m "adding commits file"
+   84  git push origin master
+   85  /bin/python /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py
+   86  touch Q4_script.sh
+   87  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/plants3.csv
+   88  chmod + ./Q4_script.sh
+   89  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/plants3.csv
+   90  chmod +x ~/LINUX_Course_Project/Work/Q4/Q4_script.sh
+   91  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/plants3.csv
+   92  bash -x Q4_script.sh ~/Linux_Course_Project/Work/Q3/plants3.csv
+   93  chmod + ./Q4_script.sh
+   94  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/plants3.csv
+   95  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/plant3.csv
+   96  ./Q4_script.sh ~/Linux_Course_Project/Work/Q3/Plant3.csv
+   97  ls -l /home/somaeldein/Linux_Course_Project/Work/Q3/Plant3.csv
+   98  ls -l /home/somaeldein/Linux_Course_Project/Work/Q3/
+   99  ls -l /home/somaeldein/Linux_Course_Project/Work/Q3
+  100  cd ..
+  101  cd LINUX_Course_Project
+  102  ls -l /home/somaeldein/Linux_Course_Project/Work/Q3
+  103  ls -l Work/Q3
+  104  ./Q4_script.sh ~/Linux_Course_Project/deactivate
+  105  /usr/bin/python /home/somaeldein/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/somaeldein/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  106  history
+  107  cd Q4
+  108  history
+  109  git checkout BR_Q4
+  110  touch Q4_script.sh
+  111  chmod +x Q4_script.sh
+  112  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  113  chmod +x Q4_script.sh
+  114  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  115  chmod +x Q4_script.sh
+  116  chmod +x Q4_script.sh
+  117  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  118  ls -l ~/Linux_Course_Project/Work/Q2/plant_analyzer.py
+  119  ls -l ~/LINUX_Course_Project/Work/Q2/plant_analyzer.py
+  120  python3 ~/LINUX__Course_Project/Work/Q2/plant_analyzer.py --plant "Rose" --height 50 55  --leaf_count 35 40 --dry_weight 2.0 2.3 
+  121  python3 ~/LINUX_Course_Project/Work/Q2/plant_analyzer.py --plant "Rose" --height 50 55  --leaf_count 35 40 --dry_weight 2.0 2.3 
+  122  source ~/LINUX_Course_Project/Work/Q2/venv/bin/activate
+  123  pip install -r ~/LINUX_Course_Project/Work/Q2/requirements.txt
+  124  python3 ~/LINUX_Course_Project/Work/Q2/plant_analyzer.py --plant "Rose" --height 50 55 --leaf_count 35 40  --dry_weight 2.0 2.2
+  125  deactivate
+  126  chmod +x Q4_script.sh
+  127  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  128  chmod +x Q4_script.sh
+  129  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  130  chmod +x Q4_script.sh
+  131  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  132  chmod +x Q4_script.sh
+  133  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  134  chmod +x Q4_script.sh
+  135  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  136  cd ../..
+  137  chmod +x Q4_script.sh
+  138  chmod +x Work/Q4/Q4_script.sh
+  139  ./Work/Q4/Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  140  cd Work/Q4
+  141  ./Q4_script.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  142  deactivate
+  143  /bin/python /home/somaeldein/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/somaeldein/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  144  touch Q4_plant_analyzer.sh
+  145  cd Work/Q4
+  146  touch Q4_plant_analyzer.sh
+  147  chmod +x Q4_plant_analyzer.sh
+  148  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py
+  149  chmod +x Q4_plant_analyzer.sh
+  150  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py
+  151  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  152  chmod +x Q4_plant_analyzer.sh
+  153  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  154  chmod +x Q4_plant_analyzer.sh
+  155  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  156  chmod +x Q4_plant_analyzer.sh
+  157  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  158  ./Q4_plant_analyzer.sh
+  159  chmod +x Q4_plant_analyzer.sh
+  160  ./Q4_plant_analyzer.sh
+  161  chmod +x Q4_plant_analyzer.sh
+  162  ./Q4_plant_analyzer.sh
+  163  ./Q4_plant_analyzer.sh /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  164  git add .
+  165  git commmit -m "Question 4 PART A Done (before updating the script)"
+  166  git commit -m "Question 4 PART A Done (before updating the script)"
+  167  touch Q4_Updated_Script.sh
+  168  ./Q4_plant_analyzer.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  169* 
+  170  ./Q4_plant_analyzer.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  171  ./Q4_Updated_Script.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  172  chmod +x Q4_Updated_Script.sh 
+  173  ./Q4_Updated_Script.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  174  chmod +x Q4_Updated_Script.sh 
+  175  ./Q4_Updated_Script.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  176  ./Q4_Updated_Script.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv     -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py     -o /home/somaeldein/LINUX_Course_Project/Work/Q4/Diagrams     -b /home/somaeldein/LINUX_Course_Project/BACKUPS     -l process.log     -e error.log     -c
+  177  ./Q4_plant_analyzer.sh -p /home/somaeldein/LINUX_Course_Project/CODE/plants.csv 
+  178  ./Q4_plant_analyzer.sh  /home/somaeldein/LINUX_Course_Project/CODE/plants.csv 
+  179  chmod +x Q4_plant_analyzer.sh 
+  180  ./Q4_plant_analyzer.sh  /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  181  chmod +x Q4_plant_analyzer.sh 
+  182  ./Q4_plant_analyzer.sh  /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  183  chmod +x Q4_plant_analyzer.sh 
+  184  ./Q4_plant_analyzer.sh  /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
+  185  git .add
+  186  git add .
+  187  zip -r "/home/somaeldein/LINUX_Course_Project/BACKUPS/Q4_PartA_$(date "+%Y_%m_%d_%H:%M:%S").zip" "Diagrams"
+  188  git add .
+  189  git commit -m "Question 4 - Part A - Done(modified)"
+  190  rm -r /home/somaeldein/LINUX_Course_Project/Work/Q4/Diagrams
+  191  ./Q4_plant_analyzer.sh -p plant_2.csv                        -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py                        -r /home/somaeldein/LINUX_Course_Project/Work/Q2/requirements.txt
+  192  ./Q4_plant_analyzer.sh -p /plant_2.csv                        -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py                        -r /home/somaeldein/LINUX_Course_Project/Work/Q2/requirements.txt
+  193  ./Q4_plant_analyzer.sh -p /home/somaeldein/LINUX_Course_Project/Work/Q4/plant_2.csv                       -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py                        -r /home/somaeldein/LINUX_Course_Project/Work/Q2/requirements.txt
+  194  ./Q4_Updated_Script.sh -p /home/somaeldein/LINUX_Course_Project/Work/Q4/plant_2.csv                       -s /home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py                        -r /home/somaeldein/LINUX_Course_Project/Work/Q2/requirements.txt
+  195  zip -r "/home/somaeldein/LINUX_Course_Project/BACKUPS/Q4_Part_B_$(date "+%Y_%m_%d_%H:%M:%S").zip" "Diagrams"
+  196  history > history_Q4.log
