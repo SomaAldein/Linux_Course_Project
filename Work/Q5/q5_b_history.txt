@@ -1,0 +1,14 @@
+    1  touch Dockerfile
+    2  docker build -t q5-plant-analyzer .
+    3  docker run --rm -v $(pwd)/output:/app/output q5-plant-analyzer --plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+    4  ls output/
+    5  docker run -v $(pwd)/output:/app/output --name q5-2-container plant-analyzer   --plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+    6  docker run -v $(pwd)/output:/app/output --name q5-plant-analyzer   --plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+    7  python plant_analyzer.py --plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+    8  python3 plant_analyzer.py --plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+    9  docker run --rm -v $(pwd)/output:/app/output plant-analyzer bash -c "touch /app/output/testfile.txt"
+   10  docker run --rm -v $(pwd)/output:/app/output q5-plant-analyzer bash -c "touch /app/output/testfile.txt"
+   11  docker run --rm -v $(pwd)/output:/app/output --entrypoint bash q5-plant-analyzer -c "touch /app/output/testfile.txt"
+   12  ls output/
+   13  docker run --rm -v $(pwd):/app q5-plant-analyzer \--plant "Sunflower" --height 10 15 20 --leaf_count 5 8 12 --dry_weight 1.2 1.8 2.3
+   14  history > q5_b_history.txt
