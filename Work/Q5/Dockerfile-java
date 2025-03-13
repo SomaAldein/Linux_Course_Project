@@ -1,0 +1,11 @@
+# Use an official OpenJDK runtime
+FROM openjdk:17
+
+# Set working directory
+WORKDIR /app
+
+# Copy the compiled JAR file into the container
+COPY watermark.jar .
+
+# Command to run the Java program
+ENTRYPOINT ["java", "-jar", "watermark.jar"]
