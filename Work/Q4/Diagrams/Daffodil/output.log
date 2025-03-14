@@ -1,0 +1,8 @@
+Plant: Daffodil
+Height data: [40.0, 45.0, 50.0, 55.0] cm
+Leaf count data: [15, 18, 20, 22]
+Dry weight data: [1.8, 2.0, 2.2, 2.5] g
+Generated plots for Daffodil:
+Scatter plot saved as Daffodil_scatter.png
+Histogram saved as Daffodil_histogram.png
+Line plot saved as Daffodil_line_plot.png

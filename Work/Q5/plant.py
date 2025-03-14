@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 plant = "Rose"
 height_data = [50, 55, 60, 65, 70]  # Height data over time (in cm)
 leaf_count_data = [35, 40, 45, 50, 55]  # Leaf count over time

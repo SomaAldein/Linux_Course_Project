@@ -1,11 +1,2 @@
-Processing plants from /home/somaeldein/LINUX_Course_Project/CODE/plants.csv
-Processing plant: Rose with parameters: "50 55 60 65 70", "35 40 45 50 55", "2.0 2.2 2.5 2.7 3.0"
-Successfully processed Rose
-Processing plant: Tulip with parameters: "30 35 40 42", "12 15 18 20", "1.5 1.6 1.7 1.8"
-Successfully processed Tulip
-Processing plant: Sunflower with parameters: "120 125 130 135", "50 55 60 65", "5.0 5.5 6.0 6.5"
-Successfully processed Sunflower
-Processing plant: Daffodil with parameters: "40 45 50 55", "15 18 20 22", "1.8 2.0 2.2 2.5"
-Successfully processed Daffodil
-Processing plant: Lily with parameters: "60 65 70", "20 22 24", "2.5 2.7 3.0"
-Successfully processed Lily
+Validating CSV structure...
+Error: CSV file is empty!

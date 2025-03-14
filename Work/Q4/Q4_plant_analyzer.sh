@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# Script: Q4_plant_analyzer.sh
-
 # Get CSV File Path
-# If a CSV file is passed as an argument, use it
 CSV_FILE=$1
 
 # If no CSV file is passed, search for one in the current directory
@@ -20,8 +17,50 @@ fi
 # Display the CSV file being used
 echo "CSV file: $CSV_FILE"
 
-#Set Up Virtual Environment
-#virtual environment path
+# Function to validate CSV structure
+validate_csv_structure() {
+    echo "Validating CSV structure..." | tee -a "$LOG_FILE"
+
+    # Ensure log files exist before using them
+    touch "$LOG_FILE" "$ERROR_LOG"
+
+    # Check if file is empty
+    if [ ! -s "$CSV_FILE" ]; then
+        echo "Error: CSV file is empty!" | tee -a "$LOG_FILE" | tee -a "$ERROR_LOG"
+        exit 1
+    fi
+
+    # Read the first line (header)
+    header=$(head -n 1 "$CSV_FILE")
+    expected_header="Plant,Height,Leaf Count,Dry Weight"
+
+    # Check if header matches the expected format
+    if [[ "$header" != "$expected_header" ]]; then
+        echo "Error: CSV header is incorrect! Expected format: $expected_header" | tee -a "$LOG_FILE" | tee -a "$ERROR_LOG"
+        exit 1
+    fi
+
+    # Validate that each row has exactly 4 columns
+    invalid_rows=$(tail -n +2 "$CSV_FILE" | awk -F',' 'NF!=4 {print NR+1}')
+    
+    if [[ -n "$invalid_rows" ]]; then
+        echo " Error: Invalid CSV format detected on lines: $invalid_rows" | tee -a "$LOG_FILE" | tee -a "$ERROR_LOG"
+        exit 1
+    fi
+
+    echo "CSV file is valid." | tee -a "$LOG_FILE"
+}
+LOG_FILE="Q4_HISTORY_FILE.log"
+ERROR_LOG="Q4_ERROR_FILE.log"
+
+> "$LOG_FILE"
+> "$ERROR_LOG"
+
+# Call validation function
+validate_csv_structure
+
+
+# Set Up Virtual Environment
 VENV_PATH="$HOME/.venvs/plant_analysis_env"
 
 # If the virtual environment does not exist, create it
@@ -43,61 +82,43 @@ echo "Virtual environment activated."
 
 
 # Install Required Python Packages from the Requirements File
-# requirements file path
 REQ_FILE="/home/somaeldein/LINUX_Course_Project/Work/Q2/requirements.txt"
 
-# Install required packages if the requirements file exists
 if [ -f "$REQ_FILE" ]; then
     pip install -r "$REQ_FILE"
     echo "Required packages installed."
 else
-    # If the requirements file does not exist, display an error message and exit
     echo "Requirements file not found!" >&2
     exit 1
 fi
 
 
-#Prepare Output Directories
-# Define the output directory for storing generated diagrams
+# Prepare Output Directories
 OUTPUT_DIR="Diagrams"
-mkdir -p "$OUTPUT_DIR"  # Create the directory if it does not exist
+mkdir -p "$OUTPUT_DIR"
 
-# log files for the history and errors
-LOG_FILE="Q4_HISTORY_FILE.log"
-ERROR_LOG="Q4_ERROR_FILE.log"
 
-# Clear previous log files
-> "$LOG_FILE"
-> "$ERROR_LOG"
-
-# Print status message to the log file and the terminal
 echo "Processing plants from $CSV_FILE" | tee -a "$LOG_FILE"
 
 
 # Process CSV File and Run Python Script
-# Reading the CSV file line by line, skipping the first line (header)
 tail -n +2 "$CSV_FILE" | while IFS=, read -r plant_name param1 param2 param3; do
 
-    # Create a folder for each plant inside the output directory (Diagrams)
     PLANT_DIR="$OUTPUT_DIR/$plant_name"
     mkdir -p "$PLANT_DIR"
 
-    # Print plant information
     echo "Processing plant: $plant_name with parameters: $param1, $param2, $param3" | tee -a "$LOG_FILE"
 
-    # Run the Python script to generate plant diagrams
-  python3 "/home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py" \
-    --plant "$plant_name" \
-    --height $(echo $param1 | tr -d '"') \
-    --leaf_count $(echo $param2 | tr -d '"') \
-    --dry_weight $(echo $param3 | tr -d '"') \
-    > "$PLANT_DIR/output.log" 2>>"$ERROR_LOG"
+    python3 "/home/somaeldein/LINUX_Course_Project/Work/Q2/plant_analyzer.py" \
+        --plant "$plant_name" \
+        --height $(echo $param1 | tr -d '"') \
+        --leaf_count $(echo $param2 | tr -d '"') \
+        --dry_weight $(echo $param3 | tr -d '"') \
+        > "$PLANT_DIR/output.log" 2>>"$ERROR_LOG"
 
-    
-    # Check if the Python script executed successfully
     if [ $? -eq 0 ]; then
         echo "Successfully processed $plant_name" | tee -a "$LOG_FILE"
-        mv *.png "$PLANT_DIR/" 2>/dev/null  # Move generated images to the plant's directory
+        mv *.png "$PLANT_DIR/" 2>/dev/null
     else
         echo "Error processing $plant_name. See $ERROR_LOG for details." | tee -a "$LOG_FILE"
     fi
@@ -107,5 +128,4 @@ done
 # Deactivate Virtual Environment
 deactivate
 
-# Print confirmation
 echo "Script execution completed successfully."
