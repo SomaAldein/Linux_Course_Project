@@ -4,11 +4,11 @@ FROM python:3.10
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the local files to the container
-COPY . .
+# Copy only the required files
+COPY plant_analyzer.py requirements.txt ./
 
 # Install required Python packages
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Use ENTRYPOINT to correctly pass arguments
+# Use ENTRYPOINT to allow passing arguments to the script
 ENTRYPOINT ["python", "plant_analyzer.py"]

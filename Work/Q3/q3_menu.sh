@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory where CSV files will be stored
-CSV_DIR=~/Linux_Course_Project/Work/Q3
+CSV_DIR=~/LINUX_Course_Project/Work/Q3
 # Variable to store the currently selected CSV file
 CURRENT_CSV=""
 
@@ -42,19 +42,68 @@ display_csv_file() {
 }
 
 # Function to add a new row to the CSV file
+
 add_plant_row() {
     echo -e "\nAdding a new plant entry..."
     if [[ -z "$CURRENT_CSV" ]]; then
         echo -e " No CSV file selected!\n"
         return
     fi
+
     read -p "Enter plant name: " plant
-    read -p "Enter height values (space-separated): " height
-    read -p "Enter leaf count values (space-separated): " leaf_count
-    read -p "Enter dry weight values (space-separated): " dry_weight
-    echo "$plant,\"$height\",\"$leaf_count\",\"$dry_weight\"" >> "$CURRENT_CSV"
-    echo -e "\n New row added to $CURRENT_CSV\n"
+    
+    while true; do
+        read -p "Enter height values (space-separated, must be numbers): " height
+        read -p "Enter leaf count values (space-separated, must be integers): " leaf_count
+        read -p "Enter dry weight values (space-separated, must be numbers): " dry_weight
+
+        # Convert inputs into arrays
+        height_arr=($height)
+        leaf_count_arr=($leaf_count)
+        dry_weight_arr=($dry_weight)
+
+        # Get the number of values in each input
+        height_count=${#height_arr[@]}
+        leaf_count_count=${#leaf_count_arr[@]}
+        dry_weight_count=${#dry_weight_arr[@]}
+
+        # Check if all counts match
+        if [[ $height_count -ne $leaf_count_count || $height_count -ne $dry_weight_count ]]; then
+            echo -e "\n Error: All attributes must have the same number of values! Try again.\n"
+            continue
+        fi
+
+        # Validate height values (must be floating-point numbers)
+        for h in "${height_arr[@]}"; do
+            if ! [[ $h =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+                echo -e "\n Error: Height values must be numbers (e.g., 12.5 or 15). Try again.\n"
+                continue 2
+            fi
+        done
+
+        # Validate leaf count values (must be integers)
+        for l in "${leaf_count_arr[@]}"; do
+            if ! [[ $l =~ ^[0-9]+$ ]]; then
+                echo -e "\n Error: Leaf count must be an integer (e.g., 3, 5, 10). Try again.\n"
+                continue 2
+            fi
+        done
+
+        # Validate dry weight values (must be floating-point numbers)
+        for w in "${dry_weight_arr[@]}"; do
+            if ! [[ $w =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+                echo -e "\n Error: Dry weight values must be numbers (e.g., 1.5 or 3.2). Try again.\n"
+                continue 2
+            fi
+        done
+
+        # If all inputs are valid, add the row to the CSV
+        echo "$plant,\"$height\",\"$leaf_count\",\"$dry_weight\"" >> "$CURRENT_CSV"
+        echo -e "\n New row added to $CURRENT_CSV\n"
+        break
+    done
 }
+
 
 # Function to run the Python (plant analyzer) script with plant data
 run_python() {
@@ -72,7 +121,7 @@ run_python() {
     height=$(echo "$row" | cut -d',' -f2 | tr -d '"')
     leaf_count=$(echo "$row" | cut -d',' -f3 | tr -d '"')
     dry_weight=$(echo "$row" | cut -d',' -f4 | tr -d '"')
-    python3 ~/Linux_Course_Project/Work/Q2/plant_analyzer.py --plant "$plant" --height $height --leaf_count $leaf_count --dry_weight $dry_weight
+    python3 ~/LINUX_Course_Project/Work/Q2/plant_analyzer.py --plant "$plant" --height $height --leaf_count $leaf_count --dry_weight $dry_weight
     echo -e "\n Python script executed successfully!\n"
 }
 
